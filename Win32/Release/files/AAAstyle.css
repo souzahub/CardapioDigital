@@ -1,0 +1,716 @@
+.container{
+  width:100%;
+  height: 120px;  
+  max-width:500px;            
+}
+
+.card-grupo{
+width: 120px; 
+height:120px;
+margin: 2px 1.5333333%;
+margin-left:0px;
+background-color: white; 
+border: 1px solid #000000;     
+border-radius:  10px 10px 10px 10px;
+-moz-border-radius:    10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+
+-webkit-box-shadow: 1px 7px 9px 0px rgba(128,124,128,1);
+-moz-box-shadow: 1px 7px 9px 0px rgba(128,124,128,1);
+box-shadow: 1px 7px 9px 0px rgba(128,124,128,1);
+
+}
+
+.card-grupo img {
+border-radius:  10px 10px 10px 10px;
+-moz-border-radius:    10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+
+ padding-top:0px;
+ margin-top: 0px;
+ max-height: 100%;
+ width          : 100%;
+ height         : 100%;
+ background-size: cover;
+}
+
+.card-produtos{
+
+width: 120px;
+height:120px;
+margin: 2px 1.5333333%;
+margin-left:0px;
+background-color: white; 
+border: 1px solid #000000;     
+border-radius:  10px 10px 10px 10px;
+-moz-border-radius:    10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+
+display: inline;
+
+-webkit-box-shadow: 1px 7px 9px 0px rgba(128,124,128,1);
+-moz-box-shadow: 1px 7px 9px 0px rgba(128,124,128,1);
+box-shadow: 1px 7px 9px 0px rgba(128,124,128,1);
+
+}
+
+.card-produtos img {
+border-radius:  10px 10px 10px 10px;
+-moz-border-radius:    10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+
+ padding-top:0px;
+ margin-top:  0px;
+ max-height: 100%;
+ width          : 100%;
+ height         : 100%;
+ background-size: cover;
+}
+
+.card-left{
+ float: left;
+}
+
+.card-right{
+ float: right;
+}
+
+
+.bloco2{
+width: 65%; 
+margin:2px;
+margin-left:0px;
+margin-bottom:5px;  
+
+
+}
+
+.bloco2 h5 {
+  margin-top:0px;
+  padding-left:0px ;
+  padding-top:0px  
+} 
+
+.bloco2 h2 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: arial, sans-serif;
+
+  padding-top:0px ;
+  padding-left:0px ;    
+  margin-top:0px;
+  margin-bottom:0px; 
+}
+.bloco2 h2.valor {
+  text-align:left;
+  margin-right:5px;
+  padding-right:5px ;    
+}
+.bloco2 h4 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+
+  margin-top:0px;
+  padding-left:0px ;
+  padding-top:0px
+} 
+
+.bloco2 h3 {
+  margin-top:0px;
+  padding-left:0px ;
+  padding-top:0px
+} 
+
+
+.pnlround {
+  border-radius: 15px 15px 15px 15px; 
+  -moz-border-radius: 15px 15px 15px 15px;  
+  -webkit-border-radius: 15px 15px 15px 15px;  
+  border-color:#000000;
+  background:#8799 ;
+  flex-direction: column;
+  
+}
+
+.pnlround22.image {
+ content:url(http://i.stack.imgur.com/AyzfI.jpg);
+
+}
+
+.pnlround2 {    
+
+  background-color:#34566 important! ;  
+  border-radius: 50%;
+  background-position: -15px -15px;
+  height: 195px;
+  width: 195px;
+  background-image: url(http://i.stack.imgur.com/AyzfI.jpg);
+}
+
+
+.pnlround22 {
+  border-radius: 20px 20px 20px 20px;;
+  -moz-border-radius: 20px 20px 20px 20px;  
+  -webkit-border-radius: 20px 20px 20px 20px;    
+  border-color:#fff;
+  background:green 
+;
+  background-size: cover important!;
+  clip-path:circle(50% at 50% 50%)   
+  clip-path:circle(50% at 50% 50%)    
+}
+
+
+
+      /* Center the loader */
+      #loader {
+        position: relative;
+        /*left: 50%;
+        top: 50%;
+      */  
+        z-index: 1000;
+        width: 200px;
+        height: 200px;
+        /*margin: -75px 0 0 -120px;*/
+        width: 120px;
+        height: 120px;
+        background-image: url(./files/loading/01.gif) !important;
+      }        
+
+
+      #loading {
+        position: absolute;
+        left:     50%;
+        top:      50%;
+        padding:  2px;
+        z-index:  20001;
+        height:   auto;
+        margin:   -35px 0 0 -30px;
+      }
+      
+    #loading .loading-indicator {
+        background: url(loading/11.gif) !important;/* troque aqui o nome do arquivo */
+        background-repeat: no-repeat; /* sem essa propriedade a imagem se repete na tela */
+        background-position: center; /*centraliza a imagem dentro do container loading-indicator */
+        background-size: 100px; /* tamano da animação */
+        background-color: transparent; 
+        color:      #333 !important;; /*Cor do texto (Loading, Carregando) */
+        font:       15px arial,helvetica,tahoma; /* Tamanho e tipo da fonte */
+        padding:    130px 10px 10px 10px; /* Posicionamento do texto. dependendo do background-size, pode ser necessário reajustar */
+        /* opacity: .7; */
+        rotate: (45deg);    
+    }
+
+
+    .x-mask-overlay {
+      background-image: url('./files/loading/03.gif') !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      background-color: rgba(8, 243, 114, 0.5) !important;
+    }
+    
+    
+
+.bg{
+   background-image: url(/files/logo.jpg);
+   background-position: center ;	
+   background-repeat: no-repeat ;
+   background-size: 100% 100%, contain, 3em;
+}
+
+
+.pnTransp {
+  overflow: hidden;
+  animation: fade 0.4s;
+  border-radius: 8px !important;
+  opacity: .7;
+  margin: auto;
+  background: #0b1538 !important;
+  background-color: #0b1538 !important;        
+}
+
+.btn {
+background-color: #2A265F;
+border: 0;
+border-radius: 20px;
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+color: #fff;
+font-size: 10px;
+padding: 10px 15px; 
+position: absolute;
+bottom: 10px;
+right: 30px;
+letter-spacing: 1px;
+}
+
+
+.customWindow.x-mask {
+ opacity: 0.0;
+ background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+ background-image: url(./files/loading/04.gif) !important;
+ background: url(./files/loading/05.gif) !important;/* troque aqui o nome do arquivo */
+ background-repeat: no-repeat; /* sem essa propriedade a imagem se repete na tela */
+ background-position: center; /*centraliza a imagem dentro do container loading-indicator */
+ background-size: 200px; /* tamano da animação */
+ background-color: transparent; 
+ color:      rgb(12, 238, 31) !important;; /*Cor do texto (Loading, Carregando) */
+ font:       15px arial,helvetica,tahoma; /* Tamanho e tipo da fonte */
+ padding:    130px 10px 10px 10px; /* Posicionamento do texto. dependendo do background-size, pode ser necessário reajustar */
+ /* opacity: .7; */
+ rotate: (45deg);      
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+.label {
+font-family: 'Rowdies', cursive;
+font-size: 28px; /* Altere para o tamanho desejado */
+}
+
+
+/*
+1 - Copiar o arquivo de font para a pasta do sistema ex. (files)
+
+2 - Colocar esse Comando no Create do ServerModule
+MimeTable.AddMimeType('ttf', 'application/font', False); (Nesse Caso pra Arquivo TTF)
+
+3 - Colocar Isso aqui no CustomCSS
+          @font-face{
+                                     font-family: "familiadafonte";
+                                     src: url('files/arquivodafonte.ttf') format('truetype'); (O Format muda de acordo com o tipo de arquivo)
+
+*/
+
+/*-------  CONFIGURAÇÕES DAS TABS ----------------    */
+
+/*Altera a parte superior da Tab, incluso tabs*/
+.x-tab-default-top {
+border-top-left-radius: 0;   /*Radius arredonda os cantos*/
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+padding: 5px 10px 10px 10px; /*T-R-B-L altura dos botões*/
+border-width: 0 0 0 0;       /*Borda dos Botões da Tab*/
+border-style: none ;         /*solid*/
+border-color: #32404e;
+background-color: #ffffff;   /* #1e3b5e Cor do Botão da page */
+background-image: none;  
+}
+
+/*Cor da fonte do botão da Tab ativo*/
+.x-tab-default-active .x-tab-inner {
+color: #000000;
+}
+
+/*Distância do botão fechar para as margens*/
+.x-tab-default .x-tab-close-btn {
+top: 4px;
+right: 4px;
+}
+
+/*Intensidade do fundo mask-box ajuste a Opacidade*/
+.x-mask
+{
+opacity: 0.4;
+background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+}
+
+/*Opções do Hold Overlay*/
+#holdon-overlay {
+opacity: .7 !important;
+}
+
+/*Retira as bordas dos paineis*/
+.x-panel-body-default {
+border-width: 0;
+border-style: none;
+padding: 0px 0px 0px 0px; /*Margem do painel da tab*/
+}
+
+/*Coloca sombra em qualquer Panel*/
+.pnlcard {
+box-shadow: 0 8px 6px -6px gray !important;
+background:white !important;
+border: 1px solid silver !important;
+}
+
+/*
+.x-tab-bar-default-horizontal {
+height: 0px;
+}*/
+
+/* Cores da Tab*/
+.x-tab-bar-default{
+border-style:none;
+border-width:0 0 0; 
+border-color:#ffffff;     
+background-color:#ffffff;
+background-image: none;   
+}
+
+/*Cor fonte pag ativa*/
+.x-tab-active .x-tab-inner {
+color: #ffffff !important;  
+}
+
+/*Altura dos botões em relação a borda inferior da Tab*/
+.x-tab-bar-default-top {
+padding: 5px 0px 5px 0px; /* T-R-B-L  */ 
+}
+
+/*Modifica a barra inferior do botão*/
+.x-tab-bar-strip-default {
+border-style: solid;
+padding: 3px 3px 3px 3px;  /*T-R-B-L altura dos botões*/
+border-color: transparent;
+background-color: #11ec36;
+/* background-color: #32404e; */
+}
+
+/*Cores de fontes do label da Tab em foco*/
+.x-tab .x-tab-inner { font-weight: bold; color:#000000; border: none;}
+.x-tab-over .x-tab-inner { font-weight: bold; color:#7c7c7c; border: none;}
+.x-tab-active .x-tab-inner { font-weight:bold; color:#ffffff; border: none;}
+
+/*Cor tab mouse over*/
+.x-tab-over.x-tab-default-top,
+.x-tab-over.x-tab-default-left,
+.x-tab-over.x-tab-default-right {
+background-image: none;
+background-color: #e3e3e3;
+}
+
+/*Cor da Fonte da Tab Ativa*/
+.x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+color: #ffffff;
+}
+
+/*Cor da Tab Ativa*/
+.x-tab.x-tab-active.x-tab-default-top {
+background-image: none;
+background-color: #32404E;
+}
+
+/*Cor da Tab ativa quando perde o foco*/
+.x-tab.x-tab-active.x-tab-default-top {
+background-image: none;
+background-color: #32404e;
+}
+
+/*Cor da Fonte da Tab desativada*/
+.x-tab.x-tab-disabled.x-tab-default .x-tab-inner-default {
+color: #ffffff;
+}
+
+/*Cor da Tab Desativada*/
+.x-tab.x-tab-disabled.x-tab-default-top, .x-tab.x-tab-disabled.x-tab-default-left, .x-tab.x-tab-disabled.x-tab-default-right {
+background-image: none;
+background-color: #e6e6e6;
+}
+
+/*Cor de Foco com teclas*/
+.x-keyboard-mode .x-tab-focus.x-tab-default {
+border-color: #e6e6e6;
+background-color: #e6e6e6;
+}
+
+/*cor do botão da tab quando foco em tab ativa*/ 
+.x-keyboard-mode .x-tab-focus.x-tab-over.x-tab-default {
+border-color: #32404e;
+background-color: #32404e;
+}
+
+/*Cor do botão da tab quando recebe o foco*/
+.x-keyboard-mode .x-tab-focus.x-tab-active.x-tab-default {
+border-color: #32404e;
+background-color: #32404e;
+}
+
+.btn-shop {
+background-color:#2E2E2E !important;
+color:#ffff !important ;
+border:none !important ;
+margin-top: 5px !important;
+border-color: transparent !important ;
+border-radius: 0 !important ;
+}
+
+
+/* -------------------- RETAGUARDA----------------------------*/
+/* bordas elegantes     */
+.border-bottom-edit  
+.x-form-trigger-wrap-default {
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.3) !important;
+    background-image: transparent !important;
+    box-shadow: 0 10px 10px -5px #EEE; 
+}
+
+
+.border-bottom-edit  
+.x-form-trigger-wrap-focus {
+    border:0;
+    border-bottom-style: dotted !important;
+    border-bottom: 1px solid rgba(0, 87, 250, 0.8) !important;
+    background-color: rgb(255, 255, 255) !important;    
+}
+
+.x-form-radio-default {
+    font: 17px/1 FontAwesome;
+    color: #043451 !important;
+}
+.colorBlack {
+   background: rgb(66,66,66);
+   background: -moz-linear-gradient(left, rgb(66,66,66) 0%, rgb(66,66,66) 12%, rgb(54,54,54) 39%, rgb(33,33,33) 76%, rgb(13,13,13) 100%);
+   background: -webkit-gradient(left top, right top, color-stop(0%, rgb(66,66,66)), color-stop(12%, rgb(66,66,66)), color-stop(39%, rgb(54,54,54)), color-stop(76%, rgb(33,33,33)), color-stop(100%, rgb(13,13,13)));
+   background: -webkit-linear-gradient(left, rgb(66,66,66) 0%, rgb(66,66,66) 12%, rgb(54,54,54) 39%, rgb(33,33,33) 76%, rgb(13,13,13) 100%);
+   background: -o-linear-gradient(left, rgb(66,66,66) 0%, rgb(66,66,66) 12%, rgb(54,54,54) 39%, rgb(33,33,33) 76%, rgb(13,13,13) 100%);
+   background: -ms-linear-gradient(left, rgb(66,66,66) 0%, rgb(66,66,66) 12%, rgb(54,54,54) 39%, rgb(33,33,33) 76%, rgb(13,13,13) 100%);
+   background: linear-gradient(to right, rgb(66,66,66) 0%, rgb(66,66,66) 12%, rgb(54,54,54) 39%, rgb(33,33,33) 76%, rgb(13,13,13) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#0d0d0d', GradientType=1 );
+}
+
+.pnLogin{
+         opacity: .7; /* Deixa o form semi transparente */
+        -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+        -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+          box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+          border-radius:6px;
+}
+
+.pnA{
+    
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+      box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+      border-radius:6px;
+}
+
+.pnB {
+   -webkit-box-shadow: 5px 3px 5px -2px rgba(0,0,0,0.33);
+   -moz-box-shadow: 5px 3px 5px -2px rgba(0,0,0,0.33);
+    box-shadow: 5px 3px 5px -2px rgba(0,0,0,0.33);;
+    border-radius:6px
+}
+
+
+/* cor degrade */
+.color {background: rgb(4,30,37);
+background: -moz-radial-gradient(center, ellipse cover, rgb(4,30,37) 0%, rgb(5,81,127) 0%, rgb(5,71,112) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgb(4,30,37)), color-stop(0%, rgb(5,81,127)), color-stop(100%, rgb(5,71,112)));
+background: -webkit-radial-gradient(center, ellipse cover, rgb(4,30,37) 0%, rgb(5,81,127) 0%, rgb(5,71,112) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgb(4,30,37) 0%, rgb(5,81,127) 0%, rgb(5,71,112) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgb(4,30,37) 0%, rgb(5,81,127) 0%, rgb(5,71,112) 100%);
+background: radial-gradient(ellipse at center, rgb(4,30,37) 0%, rgb(5,81,127) 0%, rgb(5,71,112) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#041e25', endColorstr='#054770', GradientType=1 );
+}
+/* borda elegante */
+.bg {-webkit-box-shadow: 0px 0px 30px 0px #c9820a(2,66,194,1);
+     -moz-box-shadow: 0px 0px 30px 0px #c9820a(2,66,194,1);
+      box-shadow: 0px 0px 30px 0px #c9820a(2,66,194,1);
+      border-radius:6px;
+}
+
+/* Retira linhas horizontais */
+.x-grid-with-col-lines .x-grid-cell {
+    border-style: solid;
+    border-color: #e9e9e9;
+    border-width: 0 0px 0 0;
+}
+/* fundo */
+.x-panel-body-default {
+    background: #ffffff;
+    border-color: #ffffff;
+}
+
+/* Diminui a altura dos edits*/
+.x-form-text-default {
+    min-height: 0px!important;
+}
+/* Retira a borda/contorno da celula selecionada no Grid */
+.x-grid-item-focused .x-grid-cell-inner:before { 
+	display: none;
+}
+
+/*Diminui os botoes do grid (getText) */
+.btn-group-sm>.btn, .btn-sm {
+    padding: .1rem .10rem;
+    font-size: .7rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+/*Troca cor  barra do Form */
+.x-window-header-default {
+    font-size: 16px;
+    border-color: #000000!important;
+    background-color: #000000!important;
+}
+/*Troca cor em volta do botao fechar do form */
+.x-window-header-default .x-tool-img {
+    background-color: #000000!important;
+}  
+
+/* Chama a fonte para o projeto pelo servidor  */
+@font-face{
+    font-family: "Yu Gothic UI";  
+    src: url('font/yugothib.ttf') format('truetype'); 
+    } 
+    
+       
+/* Retirar linha embaixo dos botoes */
+.x-btn:hover, a:hover {
+text-decoration: none !important;
+}    
+
+
+/* Imagens e Botões aredondares com CSS/ cl */
+.borda, .circulo img {
+ border-radius:6px;
+ 
+}  
+
+/* Imagens e Botões circulares com CSS */
+.circulo, .circulo img {
+ border-radius:50%;
+ 
+} 
+
+/* troca cor das borda superior */
+.x-panel-body-default {
+    background: #ffffff;
+    border-color: #e2e0e0;
+
+}
+
+ /*Muda cor da Borda esquerda do Menu*/
+.x-treelist-nav .x-treelist-item-selected.x-treelist-item-tool {
+    color: #f0f0f0;
+    background-color: #f5b74c;      
+}
+
+/* trocar Menu Lateral, fonte*/
+ .x-treelist-nav .x-treelist-item-text {
+     color: #ffffff;
+     margin-left: 27px;
+     margin-right: 24px;
+     font-size: 11px;
+     line-height: 44px;
+ } 
+
+ 
+    
+
+ /* Cor de fundo do Header do DbGrid */
+.x-column-header, .x-column-header:hover, .x-column-header:active, 
+.x-column-header-inner, .x-column-header-inner:hover, .x-column-header-inner:focus, 
+.x-column-header-trigger, .x-column-header-trigger:hover, .x-grid-header-ct .x-box-inner  { 
+    background: #02243b;
+}
+
+ /* Alter cor do Grid */
+.x-grid-item-selected {
+    color: #000;
+    background-color: #def5ff;
+    text-shadow: 0 0 black;       
+}
+
+/* cor linha de cima do grid*/
+.x-grid-with-row-lines .x-grid-item.x-grid-item-selected {
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+
+/* cor linha de meio do grid*/
+.x-grid-with-col-lines .x-grid-item-selected .x-grid-cell {
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+
+/* cor linha de baixo do grid*/
+.x-grid-with-row-lines .x-grid-item-selected + .x-grid-item {
+    border-top-style: solid;
+    border-top-color: #ffffff;
+}
+/* Grid da Altura*/
+.x-grid-td {
+    overflow: hidden;
+    border-width: 0;
+    vertical-align: initial;  
+}  
+  
+.x-grid-cell-inner {
+    padding: 3px!important;
+    margin: 1px 3px 1px -0px!important;
+} 
+/* Texto do header do Grid */
+.x-column-header .x-column-header-text-inner { 
+    color:#def5ff !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    margin: 5px 0 !important;
+} 
+
+/* Espaço interno do Header do Grid */
+.x-column-header-inner {
+    padding: 2px px !important;
+}
+
+/* Espaço interno das Rows do Grid */
+.x-grid-cell  {
+    padding: 2px px !important;    
+   
+}
+
+/* Remove/esconde a seta de ordenação do Header do Grid 
+.x-column-header-trigger, .x-column-header-trigger:hover { 
+    display: none !important;
+} */
+
+/* Retira a borda/contorno da celula selecionada no Grid */
+.x-grid-item-focused .x-grid-cell-inner:before { 
+	display: none;
+}
+
+/* Arredonda bordas edits */  
+ 
+ input[type="text"], input[type="password"], fieldset, textarea    {
+    xxxpadding: 6px !important; /* espaçamento interno do edit - opcional */
+    border: 5 !important;
+    xxx color:#333  !important; /* cor do texto do edit - opcional */
+    xxxbackground: #fff !important; /* cor de fundo, browser compatibility - opcional */
+    xxxbackground-color:#fff !important; /* cor de fundo - opcional */
+    border-radius: 2px !important;  /* arredonda as latertais - opcional */
+}
+
+/* Cor lado esquerdo do menu*/  
+.x-treelist-nav .x-treelist-item-selected.x-treelist-item-tool {
+    color: #f0f0f0;
+    background-color: #f5b74c;
+}
+/* Cor lado esquerdo do menu 2*/
+.x-treelist-nav .x-treelist-item-selected > .x-treelist-row:before {
+    background-color: #f5b74c;
+}
+/* Cor lado esquerdo do menu 2*/
+.x-treelist-nav .x-treelist-row-over:before {
+    background-color: #f5b74c;
+}
+
+/* Cor lado esquerdo do menu 2*/
+.x-treelist-nav .x-treelist-row-over:before {
+    background-color: #c9820a;
+}

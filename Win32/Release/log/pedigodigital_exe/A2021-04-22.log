@@ -1,0 +1,61 @@
+PedigoDigital.exe: 0000070C: 07:53:23 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 0000070C: 07:53:23 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 0000070C: 07:53:23 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 0000070C: 07:53:23 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 0000070C: 07:53:28 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 0000070C: 07:53:28 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 0000070C: 07:53:29 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 0000070C: 07:53:29 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 0000070C: 07:53:29 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 0000070C: 07:53:29 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 0000070C: 07:53:29 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 0000070C: 07:53:29 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 0000070C: 07:53:29 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 0000070C: 07:53:29 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 0000070C: 07:53:29 [Terminated]:Exit Code: 0
+PedigoDigital.exe: 00001D40: 07:56:53 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001D40: 07:56:53 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001D40: 07:56:53 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001D40: 07:56:53 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001D40: 07:57:29 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 00001D40: 07:57:29 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 00001D40: 07:57:29 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 00001D40: 07:57:29 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 00001D40: 07:57:29 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 00001D40: 07:57:29 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 00001D40: 07:57:29 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 00001D40: 07:57:29 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 00001D40: 07:57:29 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 00001D40: 07:57:30 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 00001D40: 07:57:30 [Terminated]:Exit Code: 0
+PedigoDigital.exe: 00001698: 08:16:06 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001698: 08:16:06 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001698: 08:16:06 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001698: 08:16:06 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002070: 08:20:49 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002070: 08:20:49 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002070: 08:20:49 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 00002070: 08:20:50 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002070: 08:20:50 [InitWebServer]:EIdCouldNotBindSocket : Could not bind socket. : Addr: $0071A8BD
+PedigoDigital.exe: 00001698: 08:20:54 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 00001698: 08:20:54 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 00001698: 08:20:55 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 00001698: 08:20:55 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 00001698: 08:20:55 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 00001698: 08:20:55 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 00001698: 08:20:55 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 00001698: 08:20:55 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 00001698: 08:20:55 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 00001698: 08:20:55 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 00001698: 08:20:55 [Terminated]:Exit Code: 0
+PedigoDigital.exe: 00002070: 08:24:48 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 00002070: 08:24:48 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 00002070: 08:24:48 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 00002070: 08:24:48 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 00002070: 08:24:48 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 00002070: 08:24:48 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 00002070: 08:24:48 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 00002070: 08:24:48 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 00002070: 08:24:48 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 00002070: 08:24:48 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 00002070: 08:24:48 [Terminated]:Exit Code: 0

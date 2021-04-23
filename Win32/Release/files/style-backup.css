@@ -1,0 +1,236 @@
+
+.product-info {
+    border-left: .20rem solid #4e73df !important; 
+    vertical-align: top;   
+}
+
+.product-info h1 {
+    font-size: 22px ;
+    color:#004080 ;
+}
+
+.product-info p {
+    color:#004080 ;
+    line-height: 24px ;
+    margin-top: 5px ;
+}
+
+.product-info p a {
+    color:#069 ;
+}
+
+.product-info img {
+    max-width:100px;
+    width: auto;
+}
+
+.container{
+    width:100%;
+    height: 120px;  
+    max-width:500px;                 
+}
+.bloco{
+  float:left; 
+  width: 30%; 
+  height:120px;
+  margin: 2px 1.5333333%;
+  margin-left:0px;
+
+
+  background-color: white; 
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 1px solid #000000;    
+ 
+}
+
+.bloco img2 {
+    max-width:100px;
+    width: auto;
+    display: block;   
+}
+
+.bloco img {
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+
+    padding-top:0px;
+    margin-top:  0px;
+    max-height: 100%;
+    width          : 100%;
+    height         : 100%;
+    background-size: cover;
+}
+
+.bloco2{
+  float:left; 
+  width: 65%; 
+  margin:2px;
+  margin-left:0px;
+  margin-bottom:5px;  
+}
+
+.bloco2 h5 {
+    margin-top:0px;
+    padding-left:0px ;
+    padding-top:0px  
+
+} 
+.bloco2 h2 {
+    padding-top:0px ;
+    padding-left:0px ;    
+    margin-top:0px;
+    margin-bottom:0px; 
+}
+.bloco2 h2.valor {
+    text-align:left;
+    margin-ight:5px;
+    padding-right:5px ;    
+}
+ .bloco2 h4 {
+    margin-top:0px;
+    padding-left:0px ;
+    padding-top:0px
+} 
+ .bloco2 h3 {
+    margin-top:0px;
+    padding-left:0px ;
+    padding-top:0px
+} 
+
+
+.pnlround {
+    border-radius: 15px 15px 15px 15px; 
+    -moz-border-radius: 15px 15px 15px 15px;  
+    -webkit-border-radius: 15px 15px 15px 15px;  
+    border-color:#000000;
+    background:#8799 ;
+    flex-direction: column;
+    
+}
+
+.pnlround.image {
+   content:url(http://placehold.it/350x150);
+}
+
+.pnlround2 {    
+    border-color:#fff;
+    background:green ;  
+    clip-path:circle(50% at 50% 50%)    
+}
+
+.pnlround2 {
+    border-radius: 20px 20px 20px 20px;;
+    -moz-border-radius: 20px 20px 20px 20px;  
+    -webkit-border-radius: 20px 20px 20px 20px;    
+    border-color:#fff;
+    background:green ;
+ 
+    clip-path:circle(50% at 50% 50%)    
+}
+
+
+
+        /* Center the loader */
+        #loader {
+          position: relative;
+          /*left: 50%;
+          top: 50%;
+        */  
+          z-index: 1;
+          width: 200px;
+          height: 200px;
+          /*margin: -75px 0 0 -120px;*/
+          width: 120px;
+          height: 120px;
+          background-image: url(/files/loading/11.gif) !important;
+        }        
+
+
+#loading {
+   top:      43%; /* posicao vertical na tela */
+   margin:   -65px 0 0 -45px; /* não é necessário alterar estas margens */ 
+}
+    
+#loading .loading-indicator {
+   background-repeat: no-repeat !important; /* sem essa propriedade a imagem se repete na tela */
+   background-position: center !important; /*centraliza a imagem dentro do container loading-indicator */
+   background-size: 70px !important; /* tamanho da animação */
+   background-color: transparent; 
+   color:      #333; /*Cor do texto (Loading, Carregando) */
+   font:       15px arial,helvetica,tahoma; /* Tamanho e tipo da fonte */
+   padding:    130px 10px 10px 10px; /* Posicionamento do texto. dependendo do background-size, pode ser necessário reajustar */  
+}
+  
+.x-mask-msg  {
+   background-size: 50px; 
+   background-color: #FFF !important;             
+   background-repeat: no-repeat !important;
+   background-position: center 8px  !important;
+   border-radius: 8px !important; 
+   border: 1px solid #CCC;
+   padding: 30px 40px 10px 40px !important; 
+   -webkit-box-shadow: 0px 5px 43px -11px rgba(92,92,92,1);
+   -moz-box-shadow: 0px 5px 43px -11px rgba(92,92,92,1);
+   box-shadow: 0px 5px 43px -11px rgba(92,92,92,1);
+}
+
+ #loading .loading-indicator, .x-mask-msg  {
+   background-image: url(/files/loading/11.gif) !important;
+ }
+ 
+ .x-mask-msg-text, .x-mask-msg-inner {
+    background-color: transparent !important;  
+    background-image: none !important;
+    border:0 !important; 
+ } 
+ 
+ .x-mask-msg-text {
+    margin: 0;
+    padding: 0;
+    margin: 35px 0 -6px 0;
+    text-align: center !important;      
+    color: #666 !important; 
+    position: relative;
+    bottom: 3px;
+ }
+ 
+ .bg{
+	 background-image: url(/files/logo.jpg);
+	 background-position: center ;	
+     background-repeat: no-repeat ;
+	background-size: 100% 100%, contain, 3em;
+
+ }
+
+
+.pnTransp {
+    overflow: hidden;
+    animation: fade 0.4s;
+    border-radius: 8px !important;
+    opacity: .7;
+    margin: auto;
+    background: #0b1538 !important;
+    background-color: #0b1538 !important;        
+}
+
+.btn {
+	background-color: #2A265F;
+	border: 0;
+	border-radius: 20px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 10px;
+	padding: 10px 15px;
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+	letter-spacing: 1px;
+}
+
+
+ 
+
+

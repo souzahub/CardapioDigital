@@ -1,0 +1,18 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "New Application",
+    "short_name": "New Application",
+    "scope": "/m",
+    "display": "fullscreen",
+    "start_url": "http://149.56.164.118:8077/m",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "description": "",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "http://149.56.164.118:8077/m",
+    "screenshots": []
+}

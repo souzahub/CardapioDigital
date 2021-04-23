@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0E7B4EDC-2292-4BEE-A137-C1BFF72D7050}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="PedigoDigital.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\portmobile\source\AppMenuDigital.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PedigoDigital">
+        <MSBuild Projects="PedigoDigital.dproj"/>
+    </Target>
+    <Target Name="PedigoDigital:Clean">
+        <MSBuild Projects="PedigoDigital.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PedigoDigital:Make">
+        <MSBuild Projects="PedigoDigital.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AppMenuDigital">
+        <MSBuild Projects="..\portmobile\source\AppMenuDigital.dproj"/>
+    </Target>
+    <Target Name="AppMenuDigital:Clean">
+        <MSBuild Projects="..\portmobile\source\AppMenuDigital.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AppMenuDigital:Make">
+        <MSBuild Projects="..\portmobile\source\AppMenuDigital.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PedigoDigital;AppMenuDigital"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PedigoDigital:Clean;AppMenuDigital:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PedigoDigital:Make;AppMenuDigital:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

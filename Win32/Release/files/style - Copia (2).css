@@ -1,0 +1,695 @@
+.container{
+    width:100%;
+    height: 120px;  
+    max-width:500px;     
+         
+}
+
+.card-grupo{
+  width: 120px; 
+  height:120px;
+  margin: 2px 1.5333333%;
+  margin-left:0px;
+  background-color: white; 
+  border: 1px solid #000000;     
+  border-radius:  10px 10px 10px 10px;
+  -moz-border-radius:    10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.card-grupo img {
+  border-radius:  10px 10px 10px 10px;
+  -moz-border-radius:    10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+
+   padding-top:0px;
+   margin-top:  0px;
+   max-height: 100%;
+   width          : 100%;
+   height         : 100%;
+   background-size: cover;
+}
+
+.card-produtos{
+
+  width: 120px;
+  height:120px;
+  margin: 2px 1.5333333%;
+  margin-left:0px;
+  background-color: white; 
+  border: 1px solid #000000;     
+  border-radius:  10px 10px 10px 10px;
+  -moz-border-radius:    10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+
+  display: inline;
+
+}
+
+.card-produtos img {
+  border-radius:  10px 10px 10px 10px;
+  -moz-border-radius:    10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+
+   padding-top:0px;
+   margin-top:  0px;
+   max-height: 100%;
+   width          : 100%;
+   height         : 100%;
+   background-size: cover;
+}
+
+.card-left{
+   float: left;
+}
+
+.card-right{
+   float: right;
+}
+
+
+.bloco2{
+  width: 65%; 
+  margin:2px;
+  margin-left:0px;
+  margin-bottom:5px;  
+
+
+}
+
+.bloco2 h5 {
+    margin-top:0px;
+    padding-left:0px ;
+    padding-top:0px  
+} 
+
+.bloco2 h2 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+
+    padding-top:0px ;
+    padding-left:0px ;    
+    margin-top:0px;
+    margin-bottom:0px; 
+}
+.bloco2 h2.valor {
+    text-align:left;
+    margin-right:5px;
+    padding-right:5px ;    
+}
+ .bloco2 h4 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+
+    margin-top:0px;
+    padding-left:0px ;
+    padding-top:0px
+} 
+
+ .bloco2 h3 {
+    margin-top:0px;
+    padding-left:0px ;
+    padding-top:0px
+} 
+
+
+.pnlround {
+    border-radius: 15px 15px 15px 15px; 
+    -moz-border-radius: 15px 15px 15px 15px;  
+    -webkit-border-radius: 15px 15px 15px 15px;  
+    border-color:#000000;
+    background:#8799 ;
+    flex-direction: column;
+    
+}
+
+.pnlround22.image {
+   content:url(http://i.stack.imgur.com/AyzfI.jpg);
+
+}
+
+.pnlround2 {    
+
+    background-color:#34566 important! ;  
+    border-radius: 50%;
+    background-position: -15px -15px;
+    height: 195px;
+    width: 195px;
+    background-image: url(http://i.stack.imgur.com/AyzfI.jpg);
+}
+
+
+  
+
+
+
+.pnlround22 {
+    border-radius: 20px 20px 20px 20px;;
+    -moz-border-radius: 20px 20px 20px 20px;  
+    -webkit-border-radius: 20px 20px 20px 20px;    
+    border-color:#fff;
+    background:green 
+;
+    background-size: cover important!;
+    clip-path:circle(50% at 50% 50%)   
+    clip-path:circle(50% at 50% 50%)    
+}
+
+
+
+        /* Center the loader */
+        #loader {
+          position: relative;
+          /*left: 50%;
+          top: 50%;
+        */  
+          z-index: 1000;
+          width: 200px;
+          height: 200px;
+          /*margin: -75px 0 0 -120px;*/
+          width: 120px;
+          height: 120px;
+          background-image: url(./files/loading/09.gif) !important;
+        }        
+
+
+        #loading {
+          position: absolute;
+          left:     50%;
+          top:      50%;
+          padding:  2px;
+          z-index:  20001;
+          height:   auto;
+          margin:   -35px 0 0 -30px;
+        }
+        
+      #loading .loading-indicator {
+          background: url(./files/loading/09.gif) !important;/* troque aqui o nome do arquivo */
+          background-repeat: no-repeat; /* sem essa propriedade a imagem se repete na tela */
+          background-position: center; /*centraliza a imagem dentro do container loading-indicator */
+          background-size: 200px; /* tamano da animação */
+          background-color: transparent; 
+          color:      #333 !important;; /*Cor do texto (Loading, Carregando) */
+          font:       15px arial,helvetica,tahoma; /* Tamanho e tipo da fonte */
+          padding:    130px 10px 10px 10px; /* Posicionamento do texto. dependendo do background-size, pode ser necessário reajustar */
+          /* opacity: .7; */
+          rotate: (45deg);    
+      }
+
+
+      .x-mask-overlay {
+        background-image: url('./files/loading/11.gif') !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-color: rgba(8, 243, 114, 0.5) !important;
+      }
+      
+
+
+
+      
+  
+ .bg{
+     background-image: url(/files/logo.jpg);
+     background-position: center ;	
+     background-repeat: no-repeat ;
+     background-size: 100% 100%, contain, 3em;
+ }
+
+
+.pnTransp {
+    overflow: hidden;
+    animation: fade 0.4s;
+    border-radius: 8px !important;
+    opacity: .7;
+    margin: auto;
+    background: #0b1538 !important;
+    background-color: #0b1538 !important;        
+}
+
+.btn {
+  background-color: #2A265F;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 10px;
+  padding: 10px 15px; 
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  letter-spacing: 1px;
+}
+
+
+.customWindow.x-mask {
+   opacity: 0.0;
+   background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+   background-image: url(./files/loading/09.gif) !important;
+   background: url(./files/loading/09.gif) !important;/* troque aqui o nome do arquivo */
+   background-repeat: no-repeat; /* sem essa propriedade a imagem se repete na tela */
+   background-position: center; /*centraliza a imagem dentro do container loading-indicator */
+   background-size: 200px; /* tamano da animação */
+   background-color: transparent; 
+   color:      rgb(12, 238, 31) !important;; /*Cor do texto (Loading, Carregando) */
+   font:       15px arial,helvetica,tahoma; /* Tamanho e tipo da fonte */
+   padding:    130px 10px 10px 10px; /* Posicionamento do texto. dependendo do background-size, pode ser necessário reajustar */
+   /* opacity: .7; */
+   rotate: (45deg);      
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+.label {
+ font-family: 'Rowdies', cursive;
+ font-size: 28px; /* Altere para o tamanho desejado */
+}
+
+
+/*
+ 1 - Copiar o arquivo de font para a pasta do sistema ex. (files)
+
+2 - Colocar esse Comando no Create do ServerModule
+  MimeTable.AddMimeType('ttf', 'application/font', False); (Nesse Caso pra Arquivo TTF)
+  
+3 - Colocar Isso aqui no CustomCSS
+            @font-face{
+                                       font-family: "familiadafonte";
+                                       src: url('files/arquivodafonte.ttf') format('truetype'); (O Format muda de acordo com o tipo de arquivo)
+
+*/
+
+my css collection, used in servermodule, customcss
+
+ 
+
+/*-------  CONFIGURAÇÕES DAS TABS ----------------    */
+
+/*Altera a parte superior da Tab, incluso tabs*/
+.x-tab-default-top {
+    border-top-left-radius: 0;   /*Radius arredonda os cantos*/
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 5px 10px 10px 10px; /*T-R-B-L altura dos botões*/
+    border-width: 0 0 0 0;       /*Borda dos Botões da Tab*/
+    border-style: none ;         /*solid*/
+    border-color: #32404e;
+    background-color: #ffffff;   /* #1e3b5e Cor do Botão da page */
+    background-image: none;  
+}
+
+/*Cor da fonte do botão da Tab ativo*/
+.x-tab-default-active .x-tab-inner {
+    color: #000000;
+}
+
+/*Distância do botão fechar para as margens*/
+.x-tab-default .x-tab-close-btn {
+    top: 4px;
+    right: 4px;
+}
+   
+/*Intensidade do fundo mask-box ajuste a Opacidade*/
+.x-mask
+{
+  opacity: 0.4;
+  background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+}
+
+/*Opções do Hold Overlay*/
+#holdon-overlay {
+  opacity: .7 !important;
+}
+
+/*Retira as bordas dos paineis*/
+.x-panel-body-default {
+    border-width: 0;
+    border-style: none;
+    padding: 0px 0px 0px 0px; /*Margem do painel da tab*/
+}
+
+/*Coloca sombra em qualquer Panel*/
+.pnlcard {
+ box-shadow: 0 8px 6px -6px gray !important;
+ background:white !important;
+ border: 1px solid silver !important;
+}
+
+/*
+.x-tab-bar-default-horizontal {
+    height: 0px;
+}*/
+
+/* Cores da Tab*/
+.x-tab-bar-default{
+    border-style:none;
+    border-width:0 0 0; 
+    border-color:#ffffff;     
+    background-color:#ffffff;
+    background-image: none;   
+}
+
+/*Cor fonte pag ativa*/
+.x-tab-active .x-tab-inner {
+    color: #ffffff !important;  
+}
+
+/*Altura dos botões em relação a borda inferior da Tab*/
+.x-tab-bar-default-top {
+    padding: 5px 0px 5px 0px; /* T-R-B-L  */ 
+}
+
+/*Modifica a barra inferior do botão*/
+.x-tab-bar-strip-default {
+    border-style: solid;
+    padding: 3px 3px 3px 3px;  /*T-R-B-L altura dos botões*/
+    border-color: transparent;
+    background-color: #32404e;
+}
+
+/*Cores de fontes do label da Tab em foco*/
+.x-tab .x-tab-inner { font-weight: bold; color:#000000; border: none;}
+.x-tab-over .x-tab-inner { font-weight: bold; color:#7c7c7c; border: none;}
+.x-tab-active .x-tab-inner { font-weight:bold; color:#ffffff; border: none;}
+
+/*Cor tab mouse over*/
+.x-tab-over.x-tab-default-top,
+.x-tab-over.x-tab-default-left,
+.x-tab-over.x-tab-default-right {
+    background-image: none;
+    background-color: #e3e3e3;
+}
+
+/*Cor da Fonte da Tab Ativa*/
+.x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+    color: #ffffff;
+}
+
+/*Cor da Tab Ativa*/
+.x-tab.x-tab-active.x-tab-default-top {
+    background-image: none;
+    background-color: #32404E;
+}
+
+/*Cor da Tab ativa quando perde o foco*/
+.x-tab.x-tab-active.x-tab-default-top {
+    background-image: none;
+    background-color: #32404e;
+}
+
+/*Cor da Fonte da Tab desativada*/
+.x-tab.x-tab-disabled.x-tab-default .x-tab-inner-default {
+    color: #ffffff;
+}
+
+/*Cor da Tab Desativada*/
+.x-tab.x-tab-disabled.x-tab-default-top, .x-tab.x-tab-disabled.x-tab-default-left, .x-tab.x-tab-disabled.x-tab-default-right {
+    background-image: none;
+    background-color: #e6e6e6;
+}
+
+/*Cor de Foco com teclas*/
+.x-keyboard-mode .x-tab-focus.x-tab-default {
+    border-color: #e6e6e6;
+    background-color: #e6e6e6;
+}
+
+/*cor do botão da tab quando foco em tab ativa*/ 
+.x-keyboard-mode .x-tab-focus.x-tab-over.x-tab-default {
+    border-color: #32404e;
+    background-color: #32404e;
+}
+
+/*Cor do botão da tab quando recebe o foco*/
+.x-keyboard-mode .x-tab-focus.x-tab-active.x-tab-default {
+    border-color: #32404e;
+    background-color: #32404e;
+}
+
+/*---------- CONFIGURAÇÕES PADRÃO ----------------------*/
+
+/*Colori e Arredonda os Edits*/
+/*Fora de foco*/
+.x-form-text {
+  border-radius: 1px;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-color: #E0E0E0;
+  box-shadow: 1px 1px 1px #E0E0E0;
+}
+.x-form-text:focus,
+.x-form-text:hover,
+.x-form-text:active
+
+{ /*Em foco*/
+  border-radius: 1px;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border:1px solid gray !important;
+  background: #FFFFB4 !important;/*Amarelinho rgb(255, 255, 180)*/
+  box-shadow: 1px 1px 1px #E0E0E0;/*Cinza rgb(224, 224, 224)*/
+}
+
+/*Muda cor dos botoes e remove bordas*/
+/*Bordas dos botoes de login*/
+.Borda{border-radius: 50px;}
+.Borda:hover{border-radius: 50px;}
+
+/*BtnVideoAula*/
+.bntVideoAula
+{
+ background:#047b4a !important;/*Cor escura*/ 
+ -webkit-transition: background 0.2s ease-in-out;
+ transition: background 0.2s ease-in-out;
+ /*border: none !important;*/
+ border-radius: 50px !important;
+}
+.bntVideoAula:hover
+{
+ background:#06bd70 !important;/*Cor clara*/
+ -webkit-transition: background 0.2s ease-in-out;
+ transition: background 0.2s ease-in-out;
+ /*border: none !important;*/
+ border-radius: 50px !important;
+}
+
+/*BtnLogin*/
+.bntLogin
+{
+ background:#75a3a3 !important;/*Cor escura*/ 
+ -webkit-transition: background 0.2s ease-in-out;
+ transition: background 0.2s ease-in-out;
+ border: none !important;
+ border-radius: 0px !important;
+}
+.bntLogin:hover
+{
+ background:#a3c2c2 !important;/*Cor clara*/
+ -webkit-transition: background 0.2s ease-in-out;
+ transition: background 0.2s ease-in-out;
+ border: none !important;
+ border-radius: 0px !important;
+}
+
+/*Remove sombra dos forms*/
+.x-css-shadow {
+ -webkit-box-shadow: none !important;
+ -moz-box-shadow: none !important;
+ box-shadow: none !important;
+}
+
+.VerticalCSS{
+transform: rotate(-90deg);
+ -webkit-transform: rotate(-90deg); /* Safari/Chrome */
+ -moz-transform: rotate(-90deg); /* Firefox */
+ -o-transform: rotate(-90deg); /* Opera */
+ -ms-transform: rotate(-90deg); /* IE 9 */
+}
+
+.x-btn-default-large{
+  background-color: rgb(65, 65, 65) !important;
+  background-image: none !important;
+  border-width:0 !important;
+}
+
+.x-btn-default-large-over
+{background-color: rgb(85, 85, 85) !important;}
+
+.x-accordion-hd .x-tool-expand-top, .x-accordion-hd .x-tool-expand-bottom
+{background-position:0 -176px;}
+
+.x-accordion-hd .x-tool-collapse-top, .x-accordion-hd .x-tool-collapse-bottom
+{background-position:0 -224px;}
+
+.menubtn{
+  text-align: left;
+  float: left;
+  width: 70%;
+  margin-left: 20px;
+  margin-top: -2px;
+}
+
+.iconright{
+  text-align: right;
+  float: right;
+  width: 8%;
+  margin-top: -6px;
+}
+
+.div100{
+  width: 100%;
+  padding-top:5px;
+}
+
+.iconWhite .fa-sf-white{
+ color: white;
+}
+
+.iconYellow .fa-sf-white{
+ color: yellow;
+}
+
+.fa-sf-inverse
+{
+ color: rgb(44, 69, 89);
+}
+
+.f-btn-transparent:focus, .f-btn-transparent:hover
+{
+border-color:rgb(97, 123, 145);
+background-color:rgb(97, 123, 145);
+}
+
+.btfocus:hover
+{
+border-color:#E0E0E0;
+background-color:#E0E0E0;
+}
+
+/*Bordas dos forms*/
+.x-window-default{/*Falta atribuir em forms separados Login Suporte ficou muito Grande*/
+    background-color: white;
+    border-color: #E0E0E0;/*Cinza rgb(224, 224, 224)*/
+    border-radius: 0px;
+    border-style: none;
+    border-width: 0px;
+    border-height: 0px;
+    padding: 0;
+    /*height:519px !important; /*tamanho do seu form - 10px*/
+    /*width:669px !important; /*tamanho do seu form - 10px*/
+}
+
+.NotValid {
+  border-style: solid;
+  border-width: 1px;
+  border-color: Red;
+}
+ 
+/*Colorir Menu principal*/ 
+/* ._treemenu .x-treelist, ._treemenu .x-treelist-row{
+  background-color: #2c4559;/*Cor Escura*/
+/*}
+
+._treemenu .x-treelist-row-over{
+  background-color: #252F38;/*Cor Clara*/
+/*}*/
+
+/*UniTreeMenu - Inicio*/
+/* Aqui ira determina a COR DE Fundo do menu */
+.x-treelist-nav
+  {
+    background-color: [[MENU_COLOR]] !important;/* #32404e;  moccasin; */
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url( 'https://gepimagens.ergonsistemas.com.br/Backgroud_620x1080.png');
+    /*background-image: url( 'files/Backgroud_Menu/Backgroud_4.png' );*/    
+    background-position: 0px 50% !important;
+
+    padding: 0 0 0 0;
+    overflow: auto !important;
+    scrollbar-width: thin;  /*estilo do scrool para o mozilla */
+    scrollbar-color: #778088 #d6d9db; /*estilo do scrool para o mozilla */
+}
+
+.x-treelist-nav .x-treelist-item-text
+{
+/*menu lado Esquerdo*/
+  color: White;       /*cor da letra do menu*/
+  margin-left: 27px;  /*27 espaçamento da esquerda para direita dos Itens do menu*/
+  margin-right: 15px; /*espaçamento da esquerda para direita dos Grupos do menu*/
+  font-size: 16px;    /*tamanho das letras*/
+  line-height: 30px;  /*altura da linha do menu*/
+}
+
+ .x-treelist-nav .x-treelist-item-icon:before,
+ .x-treelist-nav .x-treelist-item-tool:before,
+ .x-treelist-nav .x-treelist-item-expander
+{
+  line-height: 30px; /* 44 é o padrao */
+  color: White;
+} 
+
+/*Menu Expandidos*/
+.x-treelist-nav .x-treelist-item-expanded
+{
+  background-color: #324f67 !important;
+}
+
+/*Menu Selecionado*/
+/*Modelo 1*/
+.x-treelist-nav .x-treelist-item-selected > .x-treelist-row::before
+{
+  background-color: #008ae6 !important;
+}
+/*Modelo 2*/
+/*.x-treelist-nav .x-treelist-item-selected > .x-treelist-row
+{
+  background-color: #008ae6 !important;
+}*/
+
+/*Passa o mouse*/
+.x-treelist-nav .x-treelist-row-over{
+    background-color: #808080 !important;
+}
+
+.x-treelist-nav::-webkit-scrollbar
+{
+  width: 7px;
+  height:7px;
+  background:#d6d9db;
+}
+
+.x-treelist-nav::-webkit-scrollbar-track
+{
+  background: rgba(0,0,0,0.1);
+}
+
+.x-treelist-nav::-webkit-scrollbar-thumb
+{
+  border-radius: 7px; 
+  height:7px; 
+  background:#778088;
+}
+/* UniTreeMenu - Fim */
+
+/* Altura da linha na Grid */
+.GridLotacao .x-grid-column {
+    height: 20px;
+}
+
+.GridLotacao .x-grid-cell {
+    height: 20px !important;
+    line-height: 20px !important;
+}
