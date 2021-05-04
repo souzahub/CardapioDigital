@@ -31,10 +31,6 @@ object FrmExibeProduto: TFrmExibeProduto
     BorderStyle = ubsInset
     Title = 'Produto'
     TitleAlign = taCenter
-    ExplicitLeft = 19
-    ExplicitTop = 9
-    ExplicitWidth = 295
-    ExplicitHeight = 430
     DesignSize = (
       334
       445)
@@ -51,8 +47,6 @@ object FrmExibeProduto: TFrmExibeProduto
       LayoutAttribs.Pack = 'center'
       LayoutConfig.Cls = 'pnlround2'
       BorderStyle = ubsSolid
-      ExplicitWidth = 170
-      ExplicitHeight = 65
       object ImgProduto: TUnimImage
         Left = 0
         Top = 0
@@ -62,8 +56,6 @@ object FrmExibeProduto: TFrmExibeProduto
         Align = alClient
         Stretch = True
         Transparent = True
-        ExplicitWidth = 170
-        ExplicitHeight = 65
       end
     end
     object PnlPrincipalTop: TUnimPanel
@@ -74,7 +66,6 @@ object FrmExibeProduto: TFrmExibeProduto
       Hint = ''
       Align = alTop
       Color = 3026478
-      ExplicitWidth = 293
     end
     object UnimContainerButtom: TUnimContainerPanel
       Left = 1
@@ -84,15 +75,13 @@ object FrmExibeProduto: TFrmExibeProduto
       Hint = ''
       Align = alBottom
       Color = 16250871
-      ExplicitTop = 370
-      ExplicitWidth = 293
       DesignSize = (
         332
         59)
       object BtPedir: TUnimButton
-        Left = 69
-        Top = 10
-        Width = 190
+        Left = 102
+        Top = 11
+        Width = 123
         Height = 43
         Hint = ''
         Anchors = [akLeft, akRight, akBottom]
@@ -101,34 +90,12 @@ object FrmExibeProduto: TFrmExibeProduto
         UI = 'confirm'
         LayoutConfig.Cls = 'btn btn-primary'
         OnClick = BtPedirClick
-        ExplicitWidth = 151
       end
-    end
-    object MemoComposicaoProduto: TUnimMemo
-      Left = 1
-      Top = 163
-      Width = 332
-      Height = 222
-      Hint = ''
-      Align = alBottom
-      Lines.Strings = (
-        '1 p'#227'o (un.)'
-        '1 Hamburguer ou 150 gramas (kg)'
-        '1 cebola (un)'
-        '10 gramas ketchup (kg)'
-        '10 gramas maionese (kg)'
-        '100 gramas de catupiry (kg)'
-        '100 gramas de queijo (kg)')
-      ReadOnly = True
-      Color = 16250871
-      TabOrder = 4
-      ExplicitTop = 148
-      ExplicitWidth = 293
     end
     object lblDisplayProduto: TUnimLabel
       AlignWithMargins = True
       Left = 4
-      Top = 132
+      Top = 354
       Width = 326
       Height = 28
       Hint = ''
@@ -144,8 +111,25 @@ object FrmExibeProduto: TFrmExibeProduto
       Font.Height = -24
       Font.Name = 'Times New Roman'
       Font.Style = [fsBold]
-      ExplicitTop = 117
-      ExplicitWidth = 287
+    end
+    object MemoComposicaoProduto: TUnimMemo
+      Left = 1
+      Top = 129
+      Width = 332
+      Height = 222
+      Hint = ''
+      Align = alBottom
+      Lines.Strings = (
+        '1 p'#227'o (un.)'
+        '1 Hamburguer ou 150 gramas (kg)'
+        '1 cebola (un)'
+        '10 gramas ketchup (kg)'
+        '10 gramas maionese (kg)'
+        '100 gramas de catupiry (kg)'
+        '100 gramas de queijo (kg)')
+      ReadOnly = True
+      Color = 16250871
+      TabOrder = 5
     end
   end
   object PnlBottom: TUnimPanel

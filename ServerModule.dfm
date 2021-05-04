@@ -207,6 +207,12 @@ object UniServerModule: TUniServerModule
       '    scrollbar-color: #778088 #d6d9db; /*estilo do scrool para o ' +
       'mozilla */'
     '}'
+    ''
+    ''
+    '.product-info {'
+    '   border-left: .20rem solid #007afe78 !important;    '
+    '}   '
+    ''
     '')
   CustomMeta.Strings = (
     

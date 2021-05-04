@@ -43,7 +43,7 @@ object dmDados: TdmDados
     SQL.Strings = (
       'select * from USUARIO order by ID asc'
       '')
-    Left = 32
+    Left = 40
     Top = 288
     object QueryUsuarioID: TIntegerField
       FieldName = 'ID'
@@ -86,7 +86,7 @@ object dmDados: TdmDados
     Transaction = FDTransaction1
     SQL.Strings = (
       '')
-    Left = 32
+    Left = 24
     Top = 104
   end
   object QueryLogSys: TFDQuery
@@ -94,8 +94,8 @@ object dmDados: TdmDados
     Transaction = FDTransaction1
     SQL.Strings = (
       'select * from LOGSYS order by ID desc')
-    Left = 32
-    Top = 192
+    Left = 112
+    Top = 104
     object QueryLogSysID: TIntegerField
       FieldName = 'ID'
       Origin = 'ID'
@@ -128,8 +128,8 @@ object dmDados: TdmDados
   object FDConnection1: TFDConnection
     Params.Strings = (
       
-        'Database=D:\Projetos\2021\PedidoDigital\retaguarda\Win32\Debug\B' +
-        'D\BD.FDB'
+        'Database=D:\Projetos\2021\PedidoDigital\retaguarda\Win32\Release' +
+        '\BD\BD.FDB'
       'User_Name=SYSDBA'
       'Password=masterkey'
       'DriverID=FB')
@@ -142,7 +142,7 @@ object dmDados: TdmDados
     Connection = FDConnection1
     SQL.Strings = (
       'SELECT * FROM GRUPOS ORDER BY ID DESC')
-    Left = 124
+    Left = 148
     Top = 287
     object QueryGrupoID: TIntegerField
       FieldName = 'ID'
@@ -154,15 +154,15 @@ object dmDados: TdmDados
       Origin = 'NOME'
       Size = 30
     end
-    object QueryGrupoDESCRICAO: TStringField
-      FieldName = 'DESCRICAO'
-      Origin = 'DESCRICAO'
-      Size = 30
-    end
     object QueryGrupoFOTO: TStringField
       FieldName = 'FOTO'
       Origin = 'FOTO'
       Size = 200
+    end
+    object QueryGrupoDESCRICAO: TStringField
+      FieldName = 'DESCRICAO'
+      Origin = 'DESCRICAO'
+      Size = 30
     end
   end
   object QueryProduto: TFDQuery
@@ -171,7 +171,7 @@ object dmDados: TdmDados
     SQL.Strings = (
       'select * from PRODUTOS order by ID asc'
       '')
-    Left = 216
+    Left = 256
     Top = 288
     object QueryProdutoID: TIntegerField
       FieldName = 'ID'
@@ -199,16 +199,18 @@ object dmDados: TdmDados
     object QueryProdutoVALOR: TFloatField
       FieldName = 'VALOR'
       Origin = 'VALOR'
-    end
-    object QueryProdutoDESCRICAO: TStringField
-      FieldName = 'DESCRICAO'
-      Origin = 'DESCRICAO'
-      Size = 30
+      DisplayFormat = '#,##0.00'
+      EditFormat = '#,##0.00'
     end
     object QueryProdutoGRUPO: TStringField
       FieldName = 'GRUPO'
       Origin = 'GRUPO'
       Size = 40
+    end
+    object QueryProdutoDESCRICAO: TStringField
+      FieldName = 'DESCRICAO'
+      Origin = 'DESCRICAO'
+      Size = 150
     end
   end
   object UniNativeImageList1: TUniNativeImageList
@@ -238,5 +240,39 @@ object dmDados: TdmDados
       000066696C652D746578743B66613B00000000061000000073686F7070696E67
       2D6261673B66613B00000000060C000000626F6F6B6D61726B3B66613B000000
       00060B0000007365617263683B66615F3B}
+  end
+  object FDQueryFimPedido: TFDQuery
+    Connection = FDConnection1
+    Transaction = FDTransaction1
+    SQL.Strings = (
+      'select * from PEDIDO_FINALIZADO order by ID asc'
+      '')
+    Left = 40
+    Top = 368
+    object FDQueryFimPedidoID: TIntegerField
+      FieldName = 'ID'
+      Origin = 'ID'
+    end
+    object FDQueryFimPedidoID_GRUPO: TIntegerField
+      FieldName = 'ID_GRUPO'
+      Origin = 'ID_GRUPO'
+    end
+    object FDQueryFimPedidoDESCRICAO: TStringField
+      FieldName = 'DESCRICAO'
+      Origin = 'DESCRICAO'
+      Size = 150
+    end
+    object FDQueryFimPedidoVALOR: TFloatField
+      FieldName = 'VALOR'
+      Origin = 'VALOR'
+    end
+    object FDQueryFimPedidoIDPEDIDO: TIntegerField
+      FieldName = 'IDPEDIDO'
+      Origin = 'IDPEDIDO'
+    end
+    object FDQueryFimPedidoCOD_USUARIO: TIntegerField
+      FieldName = 'COD_USUARIO'
+      Origin = 'COD_USUARIO'
+    end
   end
 end

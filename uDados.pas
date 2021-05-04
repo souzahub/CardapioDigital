@@ -9,7 +9,8 @@ uses
   uDWConstsData, uRESTDWPoolerDB, uDWAbout, uniGUIBaseClasses,
   uniGUIClasses, UniFSToast, uniImageList, FireDAC.Stan.Async,
   FireDAC.DApt, FireDAC.UI.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool,
-  FireDAC.Phys, FireDAC.Phys.FB, FireDAC.Phys.FBDef, FireDAC.VCLUI.Wait;
+  FireDAC.Phys, FireDAC.Phys.FB, FireDAC.Phys.FBDef, FireDAC.VCLUI.Wait,
+  FireDAC.Phys.SQLite, FireDAC.Phys.SQLiteDef, FireDAC.Stan.ExprFuncs;
 
 type
   TdmDados = class(TDataModule)
@@ -42,11 +43,18 @@ type
     QueryProdutoCOMPOSICAO: TStringField;
     QueryProdutoFOTO: TStringField;
     QueryProdutoVALOR: TFloatField;
-    QueryGrupoDESCRICAO: TStringField;
-    QueryProdutoDESCRICAO: TStringField;
     QueryProdutoGRUPO: TStringField;
     QueryGrupoFOTO: TStringField;
     UniNativeImageList1: TUniNativeImageList;
+    QueryGrupoDESCRICAO: TStringField;
+    QueryProdutoDESCRICAO: TStringField;
+    FDQueryFimPedido: TFDQuery;
+    FDQueryFimPedidoID: TIntegerField;
+    FDQueryFimPedidoID_GRUPO: TIntegerField;
+    FDQueryFimPedidoDESCRICAO: TStringField;
+    FDQueryFimPedidoVALOR: TFloatField;
+    FDQueryFimPedidoIDPEDIDO: TIntegerField;
+    FDQueryFimPedidoCOD_USUARIO: TIntegerField;
   private
     { Private declarations }
   public

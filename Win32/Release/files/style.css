@@ -722,4 +722,77 @@ text-decoration: none !important;
     background-color: #c9820a;
 }
 
+function beforeInit(sender, config)
+{
+  
+  function beforeInit(sender, config)
+  {
+    
+    
+    config.selectedCls='';
+    config.deleteRow=function(indx){
+     ajaxRequest(MainmForm.window,'deleteRow',['index='+indx.toString()]);
+    };
+    
+    var clrs=['#5acb98','#72b3e3','#f98689','#fcca67','#d3b894','#f491bc'];
+    var clrIndx=0;
+    var htmlRow='<div class="myrow">'+
+                 '<table style="width:100%;height:100%;vertical-align:middle;">'+
+                  '<tr>'+
+                   '<td style="width:75px;text-align:center;">'+
+                    '<div class="crcldv" style="background:url(files/images/user.svg);'+
+                     'background-size:24px auto;background-position:center;background-repeat:no-repeat;'+
+                     'background-color:{[this.getColor()]};" '+
+                     ' onClick="javascript:MainmForm.UnimDBListGrid1.deleteRow({0});">'+                                      
+                    '</div>'+
+                   '</td>'+
+                   '<td>'+
+                    '<span style="font-weight:bold;font-size:13px;color:#0092f4;width:100%;display:inline-block;"> Cod: {0}</span>'+
+                    '<span style="font-size:11px;color:#929292;width:100%;display:inline-block;"> Nome: {1}</span>'+
+                    '<span style="font-size:11px;color:#929292;width:100%;display:inline-block;"> Status: {2}</span>'+
+                    '<span style="font-size:11px;color:#929292;width:100%;display:inline-block;">Pago: {3}</span>'+
+                    
+                   '</td>'+
+                   '<td style="width:55px;text-align:center;">'+
+                    '{[this.getNumber()]}'+
+                    /*'<img src="files/images/up.svg" style="width:12px;height12px;margin:auto;"/>'+
+                    '<span style="color:#f00;font-size:12px;">+ 150</span>'+*/
+                   '</td>'+
+                  '</tr>'+
+                 '</table>'+    
+                '</div>';  
+    config.itemTpl= new Ext.XTemplate(
+     htmlRow,
+     {
+      getColor: function(){
+       if(clrIndx>5){clrIndx=0;}
+       return clrs[clrIndx++];     
+      },  
+      getNumber:function(){
+       var i=randomIntFromInterval(-200,200);
+       if(i>0){
+        return '<img src="files/images/up.svg" style="width:12px;height12px;margin:auto;"/>'+
+               '<span style="color:#07d280;font-size:12px;">+ '+i.toString()+'</span>';
+       }
+       else{
+        return '<img src="files/images/down.svg" style="width:12px;height12px;margin:auto;"/>'+
+               '<span style="color:#f37372;font-size:12px;">- '+(i*-1).toString()+'</span>';
+       }
+      }
+     }
+    );
+  }
+  
 
+  border: 0;padding: 10px; width: 500px;height: 50px;display: inline-block; margin: 10px; border-radius: 4px;
+
+
+
+  border-left: 6px solid #00458b;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0 0 24px;
+  max-width: 100%;
+  overflow: auto;
+  padding: 24px;
+  width: 100%;

@@ -2,7 +2,7 @@ object MainmForm: TMainmForm
   Left = 0
   Top = 0
   ClientHeight = 527
-  ClientWidth = 320
+  ClientWidth = 358
   Caption = 'MainmForm'
   Color = clWhite
   OnShow = UnimFormShow
@@ -26,7 +26,7 @@ object MainmForm: TMainmForm
   object UnimScrollBox1: TUnimScrollBox
     Left = 0
     Top = 0
-    Width = 320
+    Width = 358
     Height = 527
     Hint = ''
     Align = alClient
@@ -36,25 +36,23 @@ object MainmForm: TMainmForm
     object TabPai: TUnimTabPanel
       Left = 0
       Top = 0
-      Width = 318
+      Width = 356
       Height = 525
       Hint = ''
-      ActivePage = TabProdutos
+      ActivePage = TabLista
       Align = alClient
       TabBarVisible = False
-      ExplicitLeft = -3
-      ExplicitTop = -1
       object TabGrupos: TUnimTabSheet
         Left = 4
         Top = 51
-        Width = 310
+        Width = 348
         Height = 470
         Hint = ''
         Caption = 'Menu'
         object UnimURLFrame1: TUnimURLFrame
           Left = 0
           Top = 0
-          Width = 310
+          Width = 348
           Height = 105
           Hint = ''
           HTML.Strings = (
@@ -99,7 +97,7 @@ object MainmForm: TMainmForm
         object ListGrupos: TUnimDBListGrid
           Left = 0
           Top = 105
-          Width = 310
+          Width = 348
           Height = 365
           Hint = ''
           Align = alClient
@@ -154,7 +152,7 @@ object MainmForm: TMainmForm
       object TabProdutos: TUnimTabSheet
         Left = 4
         Top = 51
-        Width = 310
+        Width = 348
         Height = 470
         Hint = ''
         ClientEvents.ExtEvents.Strings = (
@@ -166,7 +164,7 @@ object MainmForm: TMainmForm
         object PnlExibeGrupos: TUnimPanel
           Left = 0
           Top = 0
-          Width = 310
+          Width = 348
           Height = 63
           Hint = ''
           Align = alTop
@@ -175,7 +173,7 @@ object MainmForm: TMainmForm
           object lblGrupos: TUnimLabel
             Left = 0
             Top = 0
-            Width = 238
+            Width = 276
             Height = 63
             Hint = ''
             AutoSize = False
@@ -189,10 +187,9 @@ object MainmForm: TMainmForm
             Font.Color = clWhite
             Font.Height = -24
             Font.Style = [fsBold]
-            ExplicitLeft = 32
           end
           object PnlShop: TUnimContainerPanel
-            Left = 238
+            Left = 276
             Top = 0
             Width = 72
             Height = 63
@@ -216,7 +213,7 @@ object MainmForm: TMainmForm
         object ListProdutos: TUnimDBListGrid
           Left = 0
           Top = 63
-          Width = 310
+          Width = 348
           Height = 344
           Hint = ''
           Align = alClient
@@ -268,23 +265,23 @@ object MainmForm: TMainmForm
             item
               Title.Caption = 'COMPOSICAO'
               FieldName = 'COMPOSICAO'
-              Width = 64
+              Width = 1654
             end
             item
               Title.Caption = 'VALOR'
               FieldName = 'VALOR'
-              Width = 64
+              Width = 114
             end
             item
               Title.Caption = 'FOTO'
               FieldName = 'FOTO'
-              Width = 64
+              Width = 2204
             end>
         end
         object UnimPanel2: TUnimPanel
           Left = 0
           Top = 407
-          Width = 310
+          Width = 348
           Height = 63
           Hint = ''
           Align = alBottom
@@ -293,7 +290,7 @@ object MainmForm: TMainmForm
           object UnimLabel1: TUnimLabel
             Left = 0
             Top = 0
-            Width = 310
+            Width = 348
             Height = 63
             Hint = ''
             Alignment = taRightJustify
@@ -311,6 +308,125 @@ object MainmForm: TMainmForm
           end
         end
       end
+      object TabLista: TUnimTabSheet
+        Left = 4
+        Top = 51
+        Width = 348
+        Height = 470
+        Hint = ''
+        Caption = 'Itens'
+        object pnlPrincipal: TUnimPanel
+          Left = 0
+          Top = 0
+          Width = 348
+          Height = 470
+          Hint = ''
+          Margins.Top = 20
+          Align = alClient
+          Color = 16250871
+          Layout = 'fit'
+          LayoutAttribs.Align = 'center'
+          LayoutAttribs.Pack = 'center'
+          LayoutConfig.Cls = 'pnlround'
+          BorderStyle = ubsInset
+          Title = 'Produto'
+          TitleAlign = taCenter
+          DesignSize = (
+            348
+            470)
+          object PnlPrincipalTop: TUnimPanel
+            Left = 1
+            Top = 1
+            Width = 346
+            Height = 56
+            Hint = ''
+            Align = alTop
+            Color = 3026478
+            object lbValor: TUnimLabel
+              Left = 1
+              Top = 1
+              Width = 344
+              Height = 54
+              Hint = ''
+              Alignment = taRightJustify
+              AutoSize = False
+              Caption = ''
+              Align = alClient
+              ParentColor = False
+              Color = 3026478
+              Transparent = False
+              LayoutConfig.Padding = '15px 10px !important'
+              ParentFont = False
+              Font.Color = clWhite
+              Font.Height = -24
+              Font.Style = [fsBold]
+            end
+          end
+          object UnimDBListGrid1: TUnimDBListGrid
+            Left = 1
+            Top = 57
+            Width = 346
+            Height = 412
+            Hint = ''
+            Align = alClient
+            DataSource = dsProd
+            ClientEvents.UniEvents.Strings = (
+              
+                'beforeInit='#13#10'function beforeInit(sender, config)'#13#10'{'#13#10' '#13#10'config.l' +
+                'oadingText='#39'Carregando...'#39';'#13#10'config.grouped=false;'#13#10'config.selec' +
+                'tedCls='#39#39';'#13#10'config.itemTpl='#39'<div class="product-info">'#39'+'#13#10'      ' +
+                '  // '#39'<p>&nbsp;C'#243'digo: {0}</p>'#39'+ '#13#10'        '#39'<p class="text-black' +
+                ' font-weight">&nbsp&nbspC'#243'd Usuario: {3}</p>'#39'+              '#13#10'  ' +
+                '      '#39'<p class="text-black font-weight">&nbsp&nbspC'#243'd Prod: {1}' +
+                '</p>'#39'+       '#13#10'        '#39'<p class="text-primary font-weight">&nbs' +
+                'p&nbspDescri'#231#227'o: {2}</p>'#39'+'#13#10'        '#39'<p class="text-danger font-' +
+                'weight-Helvetica">&nbsp&nbspValor: {4}</p>'#39'+        '#13#10'          ' +
+                '      '#13#10'        '#39'</div>'#39'; '#13#10'}'#13#10#13#10#13#10)
+            Options = [dgColLines, dgRowLines, dgConfirmDelete]
+            WebOptions.Paged = False
+            DirectionLock = True
+            Columns = <
+              item
+                Title.Caption = 'ID_GRUPO'
+                FieldName = 'ID_GRUPO'
+                Width = 114
+              end
+              item
+                Title.Caption = 'CODIGO'
+                FieldName = 'CODIGO'
+                Width = 114
+              end
+              item
+                Title.Caption = 'DESCRICAO'
+                FieldName = 'DESCRICAO'
+                Width = 1654
+              end
+              item
+                Title.Caption = 'COD_USUARIO'
+                FieldName = 'COD_USUARIO'
+                Width = 114
+              end
+              item
+                Title.Caption = 'VALOR'
+                FieldName = 'VALOR'
+                Width = 114
+              end>
+          end
+          object BtPedir: TUnimButton
+            Left = 110
+            Top = 399
+            Width = 123
+            Height = 43
+            Hint = ''
+            Anchors = [akLeft, akRight, akBottom]
+            Caption = 'Confirmar'
+            IconCls = 'add'
+            UI = 'confirm'
+            LayoutConfig.Cls = 'btn btn-primary'
+            OnClick = BtPedirClick
+          end
+        end
+      end
     end
   end
   object dsGrupos: TDataSource
@@ -324,5 +440,39 @@ object MainmForm: TMainmForm
     DataSet = dmDados.QueryProduto
     Left = 268
     Top = 8
+  end
+  object dsProd: TDataSource
+    AutoEdit = False
+    DataSet = cdsProd
+    Left = 36
+    Top = 208
+  end
+  object cdsProd: TClientDataSet
+    PersistDataPacket.Data = {
+      7A0000009619E0BD0100000018000000050000000000030000007A000849445F
+      475255504F040001000000000006434F4449474F040001000000000009444553
+      43524943414F01004900000001000557494454480200020096000B434F445F55
+      53554152494F04000100000000000556414C4F5208000400000000000000}
+    Active = True
+    Aggregates = <>
+    Params = <>
+    Left = 100
+    Top = 139
+    object cdsProdID_GRUPO: TIntegerField
+      FieldName = 'ID_GRUPO'
+    end
+    object cdsProdCODIGO: TIntegerField
+      FieldName = 'CODIGO'
+    end
+    object cdsProdDESCRICAO: TStringField
+      FieldName = 'DESCRICAO'
+      Size = 150
+    end
+    object cdsProdCOD_USUARIO: TIntegerField
+      FieldName = 'COD_USUARIO'
+    end
+    object cdsProdVALOR: TFloatField
+      FieldName = 'VALOR'
+    end
   end
 end

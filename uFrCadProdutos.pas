@@ -57,6 +57,7 @@ type
     UniImage1: TUniImage;
     UniFileUpload1: TUniFileUploadButton;
     UniLabel4: TUniLabel;
+    sbExcluir: TUniFSButton;
     procedure UniFrameCreate(Sender: TObject);
     procedure BtIncClick(Sender: TObject);
     procedure BtAltClick(Sender: TObject);
@@ -72,11 +73,13 @@ type
     procedure cbGruposChange(Sender: TObject);
     procedure UniFileUpload1Completed(Sender: TObject;
       AStream: TFileStream);
+    procedure sbExcluirClick(Sender: TObject);
 
 
   private
     xIncluindo, xDeletando, xEditando, xSoAlerta, xSalvando, xAprovar, xRecusar : Boolean;
     Procedure GeraCodigo; // gera codigo para o Produto de acordo coom o Grupo
+    procedure deletaImagem; // Deleta Imagens do Upload
 
   public
 
@@ -89,6 +92,29 @@ implementation
 
 uses  ServerModule, Main, uDados;
 
+
+procedure TfrCadProduto.deletaImagem; // Deleta Imagens do Upload
+ var
+  DestName : string;
+  DestFolder : string;
+  xCodProd :  string;
+begin
+//     DestFolder         := UniServerModule.StartPath+'files\Uploads\GRUPO\'+cbGrupos.Text+'\'+'Prod_'+edCodProduto.Text; // pasta dos arquivos
+  DestFolder         := 'files\Uploads\GRUPO\'+cbGrupos.Text+'\'+'Prod_'+edCodProduto.Text;
+  DestName           := DestFolder+ExtractFileName(UniFileUpload1.FileName);
+  deletefile(DestFolder+ExtractFileName(UniFileUpload1.FileName));
+
+    try
+      deletefile(DestFolder+ExtractFileName(UniFileUpload1.FileName));
+      deletefile(dmDados.QueryProdutoFOTO.AsString); // deleta pela query
+      edFoto.Text := '';
+      UniImage1.Picture := nil;
+      exit;
+    except
+     ShowMessage('Erro ao carregar or arquivo...');
+    end;
+
+end;
 
 Procedure TfrCadProduto.GeraCodigo; // gera codigo para o Produto de acordo coom o Grupo
 var
@@ -121,6 +147,13 @@ begin
   CreateDir(UniServerModule.StartPath+'files\Uploads\GRUPO\'+cbGrupos.Text+'\'   );
 
   cpImagem.Visible := True;
+
+
+end;
+
+procedure TfrCadProduto.sbExcluirClick(Sender: TObject);
+begin
+  deletaImagem; // Deleta Imagens do Upload
 
 
 end;
