@@ -1,0 +1,239 @@
+PedigoDigital.exe: 00003628: 07:46:31 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003628: 07:46:31 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003628: 07:46:31 [TUniServerModule]:Start Path = C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003628: 07:46:31 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003628: 07:46:31 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000027E4: 07:46:44 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: PWZIKQlQP310843DB45 ) : Addr: $0082590E
+PedigoDigital.exe: 00000E70: 07:46:46 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00001C10: 07:46:55 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\files\uploads\grupo\carne\grupo_5.jpg
+PedigoDigital.exe: 00001B88: 07:48:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 6p4a9u5aMR10843DACE ) : Addr: $0082590E
+PedigoDigital.exe: 00000E70: 07:48:51 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00000E70: 07:48:51 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00003628: 07:50:10 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 00003628: 07:50:10 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 00003628: 07:50:10 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 00003628: 07:50:10 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 00003628: 07:50:10 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 00003628: 07:50:10 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 00003628: 07:50:10 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 00003628: 07:50:10 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 00003628: 07:50:16 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 00003628: 07:50:16 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 00003628: 07:50:16 [Terminated]:Exit Code: 0
+PedigoDigital.exe: 000032C4: 08:01:05 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000032C4: 08:01:05 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000032C4: 08:01:05 [TUniServerModule]:Start Path = C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000032C4: 08:01:05 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000032C4: 08:01:05 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000C38: 08:08:24 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000C38: 08:08:24 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000C38: 08:08:24 [TUniServerModule]:Start Path = C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000C38: 08:08:24 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 00000C38: 08:08:24 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000C38: 08:08:24 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 0000115C: 08:08:35 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\favicon.ico
+PedigoDigital.exe: 00002C60: 08:08:39 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00002C60: 08:08:54 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 000013FC: 08:08:58 [HandleFileRequest[127.0.0.1]]:File not found: C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\files\uploads\grupo\carne\grupo_5.jpg
+PedigoDigital.exe: 00000C38: 08:09:46 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 00000C38: 08:09:46 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 00000C38: 08:09:47 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 00000C38: 08:09:47 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 00000C38: 08:09:47 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 00000C38: 08:09:47 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 00000C38: 08:09:47 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00000C38: 08:09:47 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 00000C38: 08:09:47 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 00000C38: 08:09:52 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 00000C38: 08:09:52 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 00000C38: 08:09:52 [Terminated]:Exit Code: 0
+PedigoDigital.exe: 00002848: 08:22:06 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002848: 08:22:06 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002848: 08:22:06 [TUniServerModule]:Start Path = C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002848: 08:22:06 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002848: 08:22:06 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000013EC: 08:22:15 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: uTB3v8i6uU10843E29C ) : Addr: $0082590E
+PedigoDigital.exe: 000008FC: 08:22:21 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00002848: 08:22:31 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 00002848: 08:22:31 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 00002848: 08:22:32 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 00002848: 08:22:32 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 00002848: 08:22:32 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 00002848: 08:22:32 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 00002848: 08:22:32 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00002848: 08:22:32 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00002848: 08:22:32 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 00002848: 08:22:32 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 00002848: 08:22:38 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 00002848: 08:22:38 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 00002848: 08:22:38 [Terminated]:Exit Code: 0
+PedigoDigital.exe: 0000351C: 08:26:25 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 0000351C: 08:26:25 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 0000351C: 08:26:25 [TUniServerModule]:Start Path = C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 0000351C: 08:26:25 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 0000351C: 08:26:25 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 0000351C: 08:26:27 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 0000351C: 08:26:27 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 0000351C: 08:26:27 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 0000351C: 08:26:27 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 0000351C: 08:26:27 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 0000351C: 08:26:27 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 0000351C: 08:26:27 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 0000351C: 08:26:27 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 0000351C: 08:26:27 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 0000351C: 08:26:27 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 0000351C: 08:26:28 [Terminated]:Exit Code: 0
+PedigoDigital.exe: 00002370: 08:34:12 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002370: 08:34:12 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002370: 08:34:12 [TUniServerModule]:Start Path = C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002370: 08:34:12 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002370: 08:34:12 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 0000203C: 08:34:16 [192.168.0.96]:EUniSessionException : Invalid session or session Timeout. (Session not found: tUkd1UaINp10843DE35 ) : Addr: $0082590E
+PedigoDigital.exe: 0000207C: 08:34:21 [192.168.0.96]:EUniSessionException : Invalid session or session Timeout. (Session not found: XZkXcWKqXf10843DE40 ) : Addr: $0082590E
+PedigoDigital.exe: 00002DE0: 10:31:08 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00000184: 10:31:18 [HandleFileRequest[192.168.0.96]]:File not found: C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\files\uploads\grupo\carne\grupo_5.jpg
+PedigoDigital.exe: 00003698: 10:34:31 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003698: 10:34:31 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003698: 10:34:31 [TUniServerModule]:Start Path = C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003698: 10:34:36 [TUniServerModule]:Global Cache Folder Erased. <181> Files deleted.
+PedigoDigital.exe: 00003698: 10:34:36 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003698: 10:34:36 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002A48: 10:34:36 [192.168.0.96]:EUniSessionException : Invalid session or session Timeout. (Session not found: RTob7qFPuB10843E986 ) : Addr: $0082590E
+PedigoDigital.exe: 0000240C: 10:34:37 [HandleFileRequest[192.168.0.96]]:File not found: C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\cache\pedigodigital_exe\RTob7qFPuB10843E986\favicon.ico
+PedigoDigital.exe: 00000B9C: 10:34:40 [192.168.0.96]:EUniSessionException : Invalid session or session Timeout. (Session not found: kWdpUCddtI108440934 ) : Addr: $0082590E
+PedigoDigital.exe: 0000275C: 10:36:01 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00002A48: 10:36:05 [HandleFileRequest[192.168.0.96]]:File not found: C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\files\uploads\grupo\outros\grupo_8a1zi.gif
+PedigoDigital.exe: 0000275C: 10:37:16 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00001B70: 10:37:25 [HandleFileRequest[192.168.0.96]]:File not found: C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\files\uploads\grupo\outros\grupo_fri1.png
+PedigoDigital.exe: 00003698: 10:59:09 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 00003698: 10:59:09 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 00003698: 10:59:10 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 00003698: 10:59:10 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 00003698: 10:59:10 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 00003698: 10:59:10 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 00003698: 10:59:11 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00003698: 10:59:11 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00003698: 10:59:11 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 00003698: 10:59:11 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 00003698: 10:59:17 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 00003698: 10:59:17 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 00003698: 10:59:17 [Terminated]:Exit Code: 0
+PedigoDigital.exe: 00002F54: 11:04:42 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002F54: 11:04:42 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002F54: 11:04:42 [TUniServerModule]:Start Path = C:\Users\Luan\Downloads\PedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002F54: 11:04:42 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002F54: 11:04:42 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000017A4: 11:04:51 [192.168.0.96]:EUniSessionException : Invalid session or session Timeout. (Session not found: WBIhZ3aRpe108441170 ) : Addr: $0082590E
+PedigoDigital.exe: 00001898: 11:06:02 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 0000249C: 11:06:59 [192.168.0.96]:EUniSessionException : Invalid session or session Timeout. (Session not found: cXIMbHeUiV108440ADB ) : Addr: $0082590E
+PedigoDigital.exe: 00001898: 11:10:42 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00002F54: 11:12:42 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 00002F54: 11:12:42 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 00002F54: 11:12:43 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 00002F54: 11:12:43 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 00002F54: 11:12:43 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 00002F54: 11:12:43 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 00002F54: 11:12:43 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00002F54: 11:12:43 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00002F54: 11:12:43 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 00002F54: 11:12:43 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 00002F54: 11:12:50 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 00002F54: 11:12:50 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 00002F54: 11:12:50 [Terminated]:Exit Code: 0
+PedigoDigital.exe: 0000369C: 11:20:30 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 0000369C: 11:20:30 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 0000369C: 11:20:30 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 0000369C: 11:20:30 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 0000369C: 11:20:30 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000006D0: 11:20:45 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\favicon.ico
+PedigoDigital.exe: 00001C44: 11:20:50 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00001C44: 11:20:55 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00001C44: 11:21:00 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00001C44: 11:23:00 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 0000308C: 11:26:23 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 0000308C: 11:26:23 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 0000308C: 11:26:23 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 0000308C: 11:26:28 [TUniServerModule]:Global Cache Folder Erased. <166> Files deleted.
+PedigoDigital.exe: 0000308C: 11:26:28 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 0000308C: 11:26:28 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001E18: 11:26:36 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: iR721koalM1084416B9 ) : Addr: $0082590E
+PedigoDigital.exe: 00001B9C: 11:26:38 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00000814: 11:29:52 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000814: 11:29:52 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000814: 11:29:52 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000814: 11:29:56 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+PedigoDigital.exe: 00000814: 11:29:56 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000814: 11:29:56 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001B38: 11:31:17 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001B38: 11:31:17 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001B38: 11:31:17 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001B38: 11:31:21 [TUniServerModule]:Global Cache Folder Erased. <157> Files deleted.
+PedigoDigital.exe: 00001B38: 11:31:21 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001B38: 11:31:21 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001FB0: 11:31:27 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: m7gmw2NAdP108441929 ) : Addr: $0082590E
+PedigoDigital.exe: 00001788: 11:34:19 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001788: 11:34:19 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001788: 11:34:19 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001788: 11:34:23 [TUniServerModule]:Global Cache Folder Erased. <154> Files deleted.
+PedigoDigital.exe: 00001788: 11:34:23 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001788: 11:34:23 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000C3C: 11:34:38 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\favicon.ico
+PedigoDigital.exe: 00000338: 11:35:57 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000338: 11:35:57 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000338: 11:35:57 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000338: 11:36:02 [TUniServerModule]:Global Cache Folder Erased. <155> Files deleted.
+PedigoDigital.exe: 00000338: 11:36:02 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000338: 11:36:02 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000031F8: 11:36:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: JCrOGMrTEk108441991 ) : Addr: $0082590E
+PedigoDigital.exe: 00002D74: 11:36:56 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002D74: 11:36:56 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002D74: 11:36:56 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002D74: 11:37:01 [TUniServerModule]:Global Cache Folder Erased. <154> Files deleted.
+PedigoDigital.exe: 00002D74: 11:37:01 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002D74: 11:37:01 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000017DC: 11:37:11 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SjAS9GEMXP108441AD1 ) : Addr: $0082590E
+PedigoDigital.exe: 00002348: 11:38:35 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002348: 11:38:35 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002348: 11:38:35 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002348: 11:38:40 [TUniServerModule]:Global Cache Folder Erased. <159> Files deleted.
+PedigoDigital.exe: 00002348: 11:38:40 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002348: 11:38:40 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000A10: 11:39:15 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00001F40: 11:41:21 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001F40: 11:41:21 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001F40: 11:41:21 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001F40: 11:41:26 [TUniServerModule]:Global Cache Folder Erased. <157> Files deleted.
+PedigoDigital.exe: 00001F40: 11:41:26 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001F40: 11:41:26 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001BC8: 11:41:27 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: pMcVLaLXuI108441A6B ) : Addr: $0082590E
+PedigoDigital.exe: 00001BE0: 11:42:22 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001BE0: 11:42:22 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001BE0: 11:42:22 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001BE0: 11:42:27 [TUniServerModule]:Global Cache Folder Erased. <155> Files deleted.
+PedigoDigital.exe: 00001BE0: 11:42:27 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001BE0: 11:42:27 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000035E8: 11:43:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: pUFS3N8OyI108441B89 ) : Addr: $0082590E
+PedigoDigital.exe: 00000824: 11:43:11 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000824: 11:43:11 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000824: 11:43:11 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000824: 11:43:11 [TUniServerModule]:Global Cache Folder Erased. <147> Files deleted.
+PedigoDigital.exe: 00000824: 11:43:11 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000824: 11:43:11 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000017F0: 11:45:28 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: f8KTtsEE46108441CB5 ) : Addr: $0082590E
+PedigoDigital.exe: 00003B20: 11:46:10 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003B20: 11:46:10 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003B20: 11:46:10 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003B20: 11:46:15 [TUniServerModule]:Global Cache Folder Erased. <155> Files deleted.
+PedigoDigital.exe: 00003B20: 11:46:15 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003B20: 11:46:15 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003B20: 11:47:11 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 00003B20: 11:47:11 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 00003B20: 11:47:11 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 00003B20: 11:47:11 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 00003B20: 11:47:11 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 00003B20: 11:47:11 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 00003B20: 11:47:11 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 00003B20: 11:47:11 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 00003B20: 11:47:11 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 00003B20: 11:47:11 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 00003B20: 11:47:11 [Terminated]:Exit Code: 0

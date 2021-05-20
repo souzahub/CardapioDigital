@@ -337,39 +337,6 @@ object frCadProduto: TfrCadProduto
                 Color = clBtnFace
                 TabOrder = 3
               end
-              object sbExcluir: TUniFSButton
-                AlignWithMargins = True
-                Left = 6
-                Top = 339
-                Width = 287
-                Height = 43
-                Hint = ''
-                Margins.Left = 6
-                Margins.Top = 6
-                Margins.Right = 4
-                Margins.Bottom = 6
-                StyleButton = Danger
-                BadgeText.Text = '0'
-                BadgeText.TextColor = '#FFFFFF'
-                BadgeText.TextSize = 10
-                BadgeText.TextStyle = 'bold'
-                BadgeText.BackgroundColor = '#D50000'
-                Caption = '<i class="far fa-trash-alt"></i>'
-                Align = alBottom
-                ParentFont = False
-                Font.Height = -24
-                Font.Style = [fsBold]
-                TabOrder = 4
-                ClientEvents.ExtEvents.Strings = (
-                  
-                    'afterrender=        function afterrender(sender, eOpts)'#13#10'{'#13#10'   E' +
-                    'xt.create('#39'Ext.tip.ToolTip'#39', {'#13#10'   target: sender.getEl(),'#13#10'   s' +
-                    'howDelay:50,'#13#10'   hideDelay: 50,'#13#10'   html: "Excluir Arquivo"'#13#10'  }' +
-                    ');'#13#10'}')
-                OnClick = sbExcluirClick
-                ExplicitLeft = 22
-                ExplicitTop = 338
-              end
             end
           end
         end

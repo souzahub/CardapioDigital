@@ -127,13 +127,10 @@ object dmDados: TdmDados
   end
   object FDConnection1: TFDConnection
     Params.Strings = (
-      
-        'Database=D:\Projetos\2021\PedidoDigital\retaguarda\Win32\Release' +
-        '\BD\BD.FDB'
+      'Database=D:\Projetos\2021\WebPedidoDigital\BD\BD.FDB'
       'User_Name=SYSDBA'
       'Password=masterkey'
       'DriverID=FB')
-    Connected = True
     LoginPrompt = False
     Left = 120
     Top = 24

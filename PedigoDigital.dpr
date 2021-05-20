@@ -16,7 +16,9 @@ uses
   uFuncoes in 'uFuncoes.pas',
   Mainm in 'Mainm.pas' {MainmForm: TUnimForm},
   uExibeProduto in 'uExibeProduto.pas' {FrmExibeProduto: TUnimForm},
-  uAcesso in 'uAcesso.pas' {FrmAcesso: TUnimLoginForm};
+  uAcesso in 'uAcesso.pas' {FrmAcesso: TUnimLoginForm},
+  uFrCaixa in 'uFrCaixa.pas' {frCaixa: TUniFrame},
+  uFormBuscaProduto in 'uFormBuscaProduto.pas' {formBuscaProduto: TUniForm};
 
 {$R *.res}
 

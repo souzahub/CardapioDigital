@@ -48,7 +48,6 @@ type
     UniLabel4: TUniLabel;
     edFoto: TUniEdit;
     lbFoto: TUniLabel;
-    sbExcluir: TUniFSButton;
     procedure UniFrameCreate(Sender: TObject);
     procedure BtIncClick(Sender: TObject);
     procedure BtAltClick(Sender: TObject);
@@ -62,13 +61,11 @@ type
       const Reason: TDismissType);
     procedure UniFileUploadButton1Completed(Sender: TObject;
       AStream: TFileStream);
-    procedure sbExcluirClick(Sender: TObject);
     procedure edNomeExit(Sender: TObject);
 
   private
     { Private declarations }
     xIncluindo, xDeletando, xEditando, xSoAlerta, xSalvando, xAprovar, xRecusar : Boolean;
-    procedure deletaImagem; // Deleta Imagens do Upload
 
   public
     { Public declarations }
@@ -87,7 +84,7 @@ begin
     xEditando := True;
     xDeletando := False;
 
-          // ler imagem quando editar
+// ler imagem quando editar
    Try
     UniImage1.Picture := nil;
     cpImagem.Visible := True;
@@ -102,7 +99,7 @@ begin
     PageCadastro.Pages[0].TabVisible := False ;
     PageCadastro.Pages[1].TabVisible := True ;
 
- // Visualizando Botao do Crud
+// Visualizando Botao do Crud
     BtInc.Enabled := False;
     BtAlt.Enabled := False;
     BtExc.Enabled := False;
@@ -116,61 +113,8 @@ begin
 
 end;
 
-procedure TfrCadGrupo.deletaImagem; // Deleta Imagens do Upload
- var
-  DestName : string;
-  DestFolder : string;
-  xCodProd :  string;
-begin
-//     DestFolder         := UniServerModule.StartPath+'files\Uploads\GRUPO\'+cbGrupos.Text+'\'+'Prod_'+edCodProduto.Text; // pasta dos arquivos
-  DestFolder         := 'files\Uploads\GRUPO\'+edNome.Text+'\'+'GRUPO_';
-  DestName           := DestFolder+ExtractFileName(UniFileUploadButton1.FileName);
-
-
-    try
-      deletefile(DestFolder+ExtractFileName(UniFileUploadButton1.FileName));
-      deletefile(dmDados.QueryGrupoFOTO.AsString); // deleta pela query
-      edFoto.Text := '';
-      UniImage1.Picture := nil;
-      exit;
-    except
-      ShowMessage('Erro ao carregar or arquivo...');
-
-    end;
-
-end;
-
-procedure TfrCadGrupo.edNomeExit(Sender: TObject);
-begin
-    if not DirectoryExists(UniServerModule.StartPath+'files\Uploads\GRUPO\'+edNome.Text+'\' ) then   // cria pasta para envio de arquivos direcionado pelo numero do processo
-  CreateDir(UniServerModule.StartPath+'files\Uploads\GRUPO\'+edNome.Text+'\'   );
-
-  if edNome.Text = '' then
-  begin
-
-    cpImagem.Visible := False;
-    Exit;
-
-  end
-  else
-  begin
-
-    cpImagem.Visible := TRue;
-    Exit;
-
-  end;
-
-
-end;
-
 procedure TfrCadGrupo.BtCanClick(Sender: TObject);
 begin
-  if edNome.Text = '' then
-  begin
-    cpImagem.Visible := False;
-
-  end;
-
 //   dmDados.RDWFornec.Cancel;
    PageCadastro.ActivePage := Tab1 ; // Volta para a Tela de Consulta
    PageCadastro.Pages[0].TabVisible := True ;
@@ -255,7 +199,7 @@ end;
 
 procedure TfrCadGrupo.BtIncClick(Sender: TObject);
 begin
-   
+
   xSoAlerta := False;
   xIncluindo := True;
   xEditando := False;
@@ -278,9 +222,19 @@ begin
   edNome.Text := '';
   edDescricao.Text := '';
   edFoto.Text := '';
+  cpImagem.Visible := True;
+  cpnPesquisa.Visible := False;
 
-  cpnPesquisa.Visible := False;
+end;
 
+procedure TfrCadGrupo.edNomeExit(Sender: TObject);
+begin
+  UniImage1.Picture := nil;// limpar as imagens da tela
+
+   if not DirectoryExists(UniServerModule.StartPath+'files\Uploads\GRUPO\'+edNome.Text+'\' ) then   // cria pasta para envio de arquivos direcionado pelo numero do processo
+  CreateDir(UniServerModule.StartPath+'files\Uploads\GRUPO\'+edNome.Text+'\'   );
+
+  cpImagem.Visible := True;
 end;
 
 procedure TfrCadGrupo.EdPesquisarChange(Sender: TObject);
@@ -292,11 +246,6 @@ begin
   dmDados.QueryGrupo.SQL.Add('or DESCRICAO LIKE  '+QuotedStr('%'+EdPesquisar.Text+'%') );
   dmDados.QueryGrupo.SQL.Add(')order by ID desc');
   dmDados.QueryGrupo.Open;
-end;
-
-procedure TfrCadGrupo.sbExcluirClick(Sender: TObject);
-begin
- deletaImagem; // Deleta Imagens do Upload
 end;
 
 procedure TfrCadGrupo.UniFileUploadButton1Completed(Sender: TObject;
@@ -409,7 +358,6 @@ end;
 procedure TfrCadGrupo.UniSweetAlert1Dismiss(Sender: TObject;
   const Reason: TDismissType);
 begin
-  deletaImagem; // Deleta Imagens do Upload
   xSoAlerta := False;
   xIncluindo := False;
   xEditando := False;

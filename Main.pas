@@ -12,7 +12,7 @@ uses
   frxExportBaseDialog, frxExportPDF, frxGradient, frxDBSet, uniGUIFrame,
   uniButton, uniBitBtn, uniMenuButton, UniFSMenuButton, DB, UniFSButton,
   uniEdit, unimImage, Dashboard.Infobox, uniHTMLFrame, uniURLFrame,
-  UniFSCalcEdit, Utils, uFrCadGrupo, uFrCadProdutos;
+  UniFSCalcEdit, Utils, uFrCadGrupo, uFrCadProdutos, uFrCaixa;
 
 type
   TMainForm = class(TUniForm)
@@ -47,6 +47,7 @@ type
     mnuGrupos: TUniMenuItem;
     mnuProdutos: TUniMenuItem;
     lbOla: TUniLabel;
+    Vendas1: TUniMenuItem;
     procedure UniFormScreenResize(Sender: TObject; AWidth,
       AHeight: Integer);
     procedure Sair1Click(Sender: TObject);
@@ -58,7 +59,8 @@ type
     procedure UniFormShow(Sender: TObject);
     procedure UniFSButton1Click(Sender: TObject);
     procedure mnuGruposClick(Sender: TObject);
-    procedure mnuProdutosClick(Sender: TObject); //atualizar dados html
+    procedure mnuProdutosClick(Sender: TObject);
+    procedure Vendas1Click(Sender: TObject); //atualizar dados html
   private
     FInfobox : IInfobox; // Declaração...
     FValor1, FValor2, FValor3, FValor4 : string;
@@ -215,6 +217,11 @@ end;
 procedure TMainForm.Usuarios1Click(Sender: TObject);
 begin
     AddTab(PagePrincipal,TFrame(TfrCadastroUsuario),'Usuário');
+end;
+
+procedure TMainForm.Vendas1Click(Sender: TObject);
+begin
+   AddTab(PagePrincipal,TFrame(TfrCaixa),'Vendas');
 end;
 
 // fim

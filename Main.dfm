@@ -1451,5 +1451,10 @@ object MainForm: TMainForm
       ImageIndex = 17
       OnClick = mnuProdutosClick
     end
+    object Vendas1: TUniMenuItem
+      Caption = 'Vendas'
+      ImageIndex = 32
+      OnClick = Vendas1Click
+    end
   end
 end
