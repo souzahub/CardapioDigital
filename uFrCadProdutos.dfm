@@ -57,6 +57,11 @@ object frCadProduto: TfrCadProduto
               FieldName = 'DESCRICAO'
               Title.Caption = 'DESCRICAO'
               Width = 304
+            end
+            item
+              FieldName = 'UNIDADE'
+              Title.Caption = 'UNIDADE'
+              Width = 52
             end>
         end
       end
@@ -85,8 +90,8 @@ object frCadProduto: TfrCadProduto
             ParentColor = False
             Align = alLeft
             TabOrder = 0
-            ExplicitLeft = -6
-            ExplicitTop = 3
+            ExplicitLeft = -32
+            ExplicitTop = -3
             object edValoProduto: TUniFormattedNumberEdit
               Left = 458
               Top = 286
@@ -213,7 +218,7 @@ object frCadProduto: TfrCadProduto
             object dbcodGrupo: TUniDBEdit
               Left = 272
               Top = 56
-              Width = 85
+              Width = 145
               Height = 22
               Hint = ''
               DataField = 'ID'
@@ -263,6 +268,34 @@ object frCadProduto: TfrCadProduto
               Color = clBtnFace
               TabOrder = 14
             end
+            object UniLabel5: TUniLabel
+              Left = 458
+              Top = 37
+              Width = 46
+              Height = 13
+              Hint = ''
+              Caption = 'Unidade'
+              ParentFont = False
+              Font.Style = [fsBold]
+              TabOrder = 15
+            end
+            object cbUnidade: TUniComboBox
+              Left = 458
+              Top = 56
+              Width = 80
+              Hint = ''
+              Style = csDropDownList
+              MaxLength = 20
+              Text = ''
+              Items.Strings = (
+                'UN'
+                'PCT'
+                'KG'
+                'L')
+              TabOrder = 16
+              CharCase = ecUpperCase
+              IconItems = <>
+            end
           end
           object UniContainerPanel4: TUniContainerPanel
             Left = 748
@@ -277,8 +310,8 @@ object frCadProduto: TfrCadProduto
               341
               507)
             object cpImagem: TUniContainerPanel
-              Left = 24
-              Top = 16
+              Left = 32
+              Top = -40
               Width = 297
               Height = 388
               Hint = ''

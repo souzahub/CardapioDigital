@@ -131,6 +131,9 @@ object dmDados: TdmDados
       'User_Name=SYSDBA'
       'Password=masterkey'
       'DriverID=FB')
+    ResourceOptions.AssignedValues = [rvAutoReconnect]
+    ResourceOptions.AutoReconnect = True
+    Connected = True
     LoginPrompt = False
     Left = 120
     Top = 24
@@ -209,6 +212,11 @@ object dmDados: TdmDados
       Origin = 'DESCRICAO'
       Size = 150
     end
+    object QueryProdutoUNIDADE: TStringField
+      FieldName = 'UNIDADE'
+      Origin = 'UNIDADE'
+      Size = 8
+    end
   end
   object UniNativeImageList1: TUniNativeImageList
     Left = 568
@@ -238,14 +246,74 @@ object dmDados: TdmDados
       2D6261673B66613B00000000060C000000626F6F6B6D61726B3B66613B000000
       00060B0000007365617263683B66615F3B}
   end
+  object FDQueryCaixa: TFDQuery
+    Connection = FDConnection1
+    Transaction = FDTransaction1
+    SQL.Strings = (
+      'select * from CAIXA order by COD_VENDA asc'
+      '')
+    Left = 40
+    Top = 368
+    object FDQueryCaixaDATA_SAIDA: TSQLTimeStampField
+      FieldName = 'DATA_SAIDA'
+      Origin = 'DATA_SAIDA'
+    end
+    object FDQueryCaixaNOMEPRODUTO: TStringField
+      FieldName = 'NOMEPRODUTO'
+      Origin = 'NOMEPRODUTO'
+      Size = 80
+    end
+    object FDQueryCaixaPRECO: TFloatField
+      FieldName = 'PRECO'
+      Origin = 'PRECO'
+    end
+    object FDQueryCaixaQT: TIntegerField
+      FieldName = 'QT'
+      Origin = 'QT'
+    end
+    object FDQueryCaixaSUB_PRECO: TFloatField
+      FieldName = 'SUB_PRECO'
+      Origin = 'SUB_PRECO'
+    end
+    object FDQueryCaixaCODPRODUTO: TIntegerField
+      FieldName = 'CODPRODUTO'
+      Origin = 'CODPRODUTO'
+    end
+    object FDQueryCaixaCOD_BARRA: TIntegerField
+      FieldName = 'COD_BARRA'
+      Origin = 'COD_BARRA'
+    end
+    object FDQueryCaixaCOD_CLIENTE: TIntegerField
+      FieldName = 'COD_CLIENTE'
+      Origin = 'COD_CLIENTE'
+    end
+    object FDQueryCaixaUNIDADE: TStringField
+      FieldName = 'UNIDADE'
+      Origin = 'UNIDADE'
+      Size = 8
+    end
+    object FDQueryCaixaINICIO: TSQLTimeStampField
+      FieldName = 'INICIO'
+      Origin = 'INICIO'
+    end
+    object FDQueryCaixaCOD_VENDA: TIntegerField
+      FieldName = 'COD_VENDA'
+      Origin = 'COD_VENDA'
+    end
+    object FDQueryCaixaID: TIntegerField
+      FieldName = 'ID'
+      Origin = 'ID'
+      Required = True
+    end
+  end
   object FDQueryFimPedido: TFDQuery
     Connection = FDConnection1
     Transaction = FDTransaction1
     SQL.Strings = (
       'select * from PEDIDO_FINALIZADO order by ID asc'
       '')
-    Left = 40
-    Top = 368
+    Left = 232
+    Top = 360
     object FDQueryFimPedidoID: TIntegerField
       FieldName = 'ID'
       Origin = 'ID'
@@ -270,6 +338,11 @@ object dmDados: TdmDados
     object FDQueryFimPedidoCOD_USUARIO: TIntegerField
       FieldName = 'COD_USUARIO'
       Origin = 'COD_USUARIO'
+    end
+    object FDQueryFimPedidoUNIDADE: TStringField
+      FieldName = 'UNIDADE'
+      Origin = 'UNIDADE'
+      Size = 8
     end
   end
 end

@@ -48,6 +48,8 @@ type
     UniNativeImageList1: TUniNativeImageList;
     QueryGrupoDESCRICAO: TStringField;
     QueryProdutoDESCRICAO: TStringField;
+    FDQueryCaixa: TFDQuery;
+    QueryProdutoUNIDADE: TStringField;
     FDQueryFimPedido: TFDQuery;
     FDQueryFimPedidoID: TIntegerField;
     FDQueryFimPedidoID_GRUPO: TIntegerField;
@@ -55,6 +57,19 @@ type
     FDQueryFimPedidoVALOR: TFloatField;
     FDQueryFimPedidoIDPEDIDO: TIntegerField;
     FDQueryFimPedidoCOD_USUARIO: TIntegerField;
+    FDQueryFimPedidoUNIDADE: TStringField;
+    FDQueryCaixaDATA_SAIDA: TSQLTimeStampField;
+    FDQueryCaixaNOMEPRODUTO: TStringField;
+    FDQueryCaixaPRECO: TFloatField;
+    FDQueryCaixaQT: TIntegerField;
+    FDQueryCaixaSUB_PRECO: TFloatField;
+    FDQueryCaixaCODPRODUTO: TIntegerField;
+    FDQueryCaixaCOD_BARRA: TIntegerField;
+    FDQueryCaixaCOD_CLIENTE: TIntegerField;
+    FDQueryCaixaUNIDADE: TStringField;
+    FDQueryCaixaINICIO: TSQLTimeStampField;
+    FDQueryCaixaCOD_VENDA: TIntegerField;
+    FDQueryCaixaID: TIntegerField;
   private
     { Private declarations }
   public

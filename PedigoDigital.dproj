@@ -205,11 +205,6 @@ $(PreBuildEvent)]]></PreBuildEvent>
             <FormType>dfm</FormType>
             <DesignClass>TUniForm</DesignClass>
         </DCCReference>
-        <DCCReference Include="uFrCadastroUsuario.pas">
-            <Form>frCadastroUsuario</Form>
-            <FormType>dfm</FormType>
-            <DesignClass>TUniFrame</DesignClass>
-        </DCCReference>
         <DCCReference Include="uDados.pas">
             <Form>dmDados</Form>
             <FormType>dfm</FormType>
@@ -262,6 +257,11 @@ $(PreBuildEvent)]]></PreBuildEvent>
             <Form>formBuscaProduto</Form>
             <FormType>dfm</FormType>
             <DesignClass>TUniForm</DesignClass>
+        </DCCReference>
+        <DCCReference Include="uFrCadastroUsuario.pas">
+            <Form>frCadastroUsuario</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TUniFrame</DesignClass>
         </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>

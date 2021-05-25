@@ -1,0 +1,589 @@
+PedigoDigital.exe: 0000371C: 08:16:17 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 0000371C: 08:16:17 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 0000371C: 08:16:17 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 0000371C: 08:16:17 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 0000371C: 08:16:17 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000FE8: 08:16:53 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\favicon.ico
+PedigoDigital.exe: 00000E9C: 08:17:02 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00002724: 08:19:36 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002724: 08:19:36 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002724: 08:19:36 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002724: 08:19:41 [TUniServerModule]:Global Cache Folder Erased. <155> Files deleted.
+PedigoDigital.exe: 00002724: 08:19:41 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002724: 08:19:41 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000027F4: 08:19:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 2BZVrOs4Ho10849FF4E ) : Addr: $0082590E
+PedigoDigital.exe: 00002538: 08:20:45 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\files\files\loading\03.gif
+PedigoDigital.exe: 00003F08: 08:25:19 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003F08: 08:25:19 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003F08: 08:25:19 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003F08: 08:25:24 [TUniServerModule]:Global Cache Folder Erased. <157> Files deleted.
+PedigoDigital.exe: 00003F08: 08:25:24 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003F08: 08:25:24 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000604: 08:25:24 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 9qTfG9fdqy1084A005A ) : Addr: $0082590E
+PedigoDigital.exe: 00001930: 08:25:25 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\cache\pedigodigital_exe\9qTfG9fdqy1084A005A\favicon.ico
+PedigoDigital.exe: 000038AC: 08:26:20 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\files\files\loading\03.gif
+PedigoDigital.exe: 00003E48: 08:33:13 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003E48: 08:33:13 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003E48: 08:33:13 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003E48: 08:33:18 [TUniServerModule]:Global Cache Folder Erased. <155> Files deleted.
+PedigoDigital.exe: 00003E48: 08:33:18 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003E48: 08:33:18 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001040: 08:33:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DpKYooNw811084A019A ) : Addr: $0082590E
+PedigoDigital.exe: 00001040: 08:33:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DpKYooNw811084A019A ) : Addr: $0082590E
+PedigoDigital.exe: 00001040: 08:33:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DpKYooNw811084A019A ) : Addr: $0082590E
+PedigoDigital.exe: 00001040: 08:33:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DpKYooNw811084A019A ) : Addr: $0082590E
+PedigoDigital.exe: 00001040: 08:33:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DpKYooNw811084A019A ) : Addr: $0082590E
+PedigoDigital.exe: 00001040: 08:33:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DpKYooNw811084A019A ) : Addr: $0082590E
+PedigoDigital.exe: 00001040: 08:33:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DpKYooNw811084A019A ) : Addr: $0082590E
+PedigoDigital.exe: 00002D48: 08:33:52 [127.0.0.1]:EDatabaseError : cdVendas: Dataset not in edit or insert mode : Addr: $006B2A4E
+PedigoDigital.exe: 00001D48: 08:35:26 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001D48: 08:35:26 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001D48: 08:35:26 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001D48: 08:35:31 [TUniServerModule]:Global Cache Folder Erased. <155> Files deleted.
+PedigoDigital.exe: 00001D48: 08:35:31 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001D48: 08:35:31 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003B90: 08:35:35 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Mt7RO1LmT11084A03D9 ) : Addr: $0082590E
+PedigoDigital.exe: 00001420: 08:57:44 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001420: 08:57:44 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001420: 08:57:44 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001420: 08:57:51 [TUniServerModule]:Global Cache Folder Erased. <175> Files deleted.
+PedigoDigital.exe: 00001420: 08:57:51 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001420: 08:57:51 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000039C0: 09:15:45 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000039C0: 09:15:45 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000039C0: 09:15:45 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000039C0: 09:15:45 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 000039C0: 09:15:45 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000039C0: 09:15:45 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003024: 09:16:59 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003024: 09:16:59 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003024: 09:16:59 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003024: 09:16:59 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 00003024: 09:16:59 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003024: 09:16:59 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000023F4: 09:17:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: uMVEQY6DLf1084A045E ) : Addr: $0082590E
+PedigoDigital.exe: 000022C8: 09:19:50 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000022C8: 09:19:50 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000022C8: 09:19:50 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000022C8: 09:19:55 [TUniServerModule]:Global Cache Folder Erased. <165> Files deleted.
+PedigoDigital.exe: 000022C8: 09:19:55 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000022C8: 09:19:55 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001D0C: 09:23:08 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001D0C: 09:23:08 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001D0C: 09:23:08 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001D0C: 09:23:14 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+PedigoDigital.exe: 00001D0C: 09:23:14 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001D0C: 09:23:14 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002084: 09:23:15 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: oMM2TYxAbU1084A1065 ) : Addr: $0082590E
+PedigoDigital.exe: 000011F4: 09:24:18 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000011F4: 09:24:18 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000011F4: 09:24:18 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000011F4: 09:24:23 [TUniServerModule]:Global Cache Folder Erased. <158> Files deleted.
+PedigoDigital.exe: 000011F4: 09:24:23 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000011F4: 09:24:23 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003D98: 09:24:24 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: gZ3ARNgkta1084A114A ) : Addr: $0082590E
+PedigoDigital.exe: 0000392C: 09:25:32 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 0000392C: 09:25:32 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 0000392C: 09:25:32 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 0000392C: 09:25:37 [TUniServerModule]:Global Cache Folder Erased. <164> Files deleted.
+PedigoDigital.exe: 0000392C: 09:25:37 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 0000392C: 09:25:37 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000020DC: 09:27:11 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: fpPkbbYPLO1084A1199 ) : Addr: $0082590E
+PedigoDigital.exe: 000031EC: 09:27:42 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -303
+conversion error from string "L" : Addr: $008DD740
+PedigoDigital.exe: 0000399C: 09:28:59 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 0000399C: 09:28:59 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 0000399C: 09:28:59 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 0000399C: 09:29:04 [TUniServerModule]:Global Cache Folder Erased. <159> Files deleted.
+PedigoDigital.exe: 0000399C: 09:29:04 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 0000399C: 09:29:04 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000020D8: 09:29:09 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: uKB4IW89Yx1084A125E ) : Addr: $0082590E
+PedigoDigital.exe: 000008C0: 09:29:59 [127.0.0.1]:EVariantTypeCastError : Could not convert variant of type (String) into type (Double) : Addr: $004410AC
+PedigoDigital.exe: 000008C0: 09:32:43 [127.0.0.1]:EVariantTypeCastError : Could not convert variant of type (String) into type (Double) : Addr: $004410AC
+PedigoDigital.exe: 00002024: 09:32:46 [127.0.0.1]:EVariantTypeCastError : Could not convert variant of type (String) into type (Double) : Addr: $004410AC
+PedigoDigital.exe: 000024C4: 09:36:45 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000024C4: 09:36:45 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000024C4: 09:36:45 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000024C4: 09:36:50 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+PedigoDigital.exe: 000024C4: 09:36:50 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000024C4: 09:36:50 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003C24: 09:36:59 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: zMzepguMU81084A12E4 ) : Addr: $0082590E
+PedigoDigital.exe: 00000ED4: 09:37:09 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -303
+conversion error from string "L" : Addr: $008DD740
+PedigoDigital.exe: 00002580: 09:39:37 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002580: 09:39:37 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002580: 09:39:37 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002580: 09:39:42 [TUniServerModule]:Global Cache Folder Erased. <158> Files deleted.
+PedigoDigital.exe: 00002580: 09:39:42 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002580: 09:39:42 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003DE4: 09:39:55 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: MPxFT1w9nV1084A1503 ) : Addr: $0082590E
+PedigoDigital.exe: 00003DE4: 09:40:05 [127.0.0.1]:EDatabaseError : FDQueryCaixa: Field 'ID_GRUPO' not found : Addr: $006B2A4E
+PedigoDigital.exe: 00003DE4: 09:40:08 [127.0.0.1]:EDatabaseError : FDQueryCaixa: Field 'ID_GRUPO' not found : Addr: $006B2A4E
+PedigoDigital.exe: 00003DE4: 09:40:15 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -303
+conversion error from string "L" : Addr: $008DD740
+PedigoDigital.exe: 000009B4: 09:42:04 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000009B4: 09:42:04 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000009B4: 09:42:04 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000009B4: 09:42:04 [TUniServerModule]:Global Cache Folder Erased. <159> Files deleted.
+PedigoDigital.exe: 000009B4: 09:42:04 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000009B4: 09:42:04 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003F54: 09:42:11 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: agsNUF5MfV1084A15D4 ) : Addr: $0082590E
+PedigoDigital.exe: 00002EE0: 09:42:39 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 00003E4C: 09:42:40 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -303
+conversion error from string "L" : Addr: $008DD740
+PedigoDigital.exe: 00002DF0: 09:44:23 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002DF0: 09:44:23 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002DF0: 09:44:23 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002DF0: 09:44:28 [TUniServerModule]:Global Cache Folder Erased. <159> Files deleted.
+PedigoDigital.exe: 00002DF0: 09:44:28 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002DF0: 09:44:28 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000C80: 09:44:53 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000C80: 09:44:53 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000C80: 09:44:53 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000C80: 09:44:53 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 00000C80: 09:44:54 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000C80: 09:44:54 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000EAC: 09:44:54 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: yO155ReYGI1084A166F ) : Addr: $0082590E
+PedigoDigital.exe: 00000EAC: 09:45:07 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -303
+conversion error from string "" : Addr: $008DD740
+PedigoDigital.exe: 00000EAC: 09:47:20 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -303
+conversion error from string "" : Addr: $008DD740
+PedigoDigital.exe: 00000C84: 09:48:05 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000C84: 09:48:05 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000C84: 09:48:05 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000C84: 09:48:10 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+PedigoDigital.exe: 00000C84: 09:48:10 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000C84: 09:48:10 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000033C8: 09:48:17 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: qO2zMh6aYT1084A172C ) : Addr: $0082590E
+PedigoDigital.exe: 000033C8: 09:48:30 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -303
+conversion error from string "" : Addr: $008DD740
+PedigoDigital.exe: 00000260: 09:52:10 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000260: 09:52:10 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000260: 09:52:10 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000260: 09:52:15 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+PedigoDigital.exe: 00000260: 09:52:15 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000260: 09:52:15 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000022E4: 09:52:18 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 3XUuqrlE8n1084A1817 ) : Addr: $0082590E
+PedigoDigital.exe: 00003E94: 09:52:18 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 3XUuqrlE8n1084A1817 ) : Addr: $0082590E
+PedigoDigital.exe: 0000047C: 10:38:04 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 0000047C: 10:38:04 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 0000047C: 10:38:04 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 0000047C: 10:38:05 [TUniServerModule]:Global Cache Folder Erased. <159> Files deleted.
+PedigoDigital.exe: 0000047C: 10:38:05 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 0000047C: 10:38:05 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000A84: 10:38:29 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: rHuPJoejiR1084A1931 ) : Addr: $0082590E
+PedigoDigital.exe: 000020E4: 10:40:52 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000020E4: 10:40:52 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000020E4: 10:40:52 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000020E4: 10:40:53 [TUniServerModule]:Global Cache Folder Erased. <154> Files deleted.
+PedigoDigital.exe: 000020E4: 10:40:53 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000020E4: 10:40:53 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000015A8: 10:40:59 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: d8L8SogbDw1084A25B3 ) : Addr: $0082590E
+PedigoDigital.exe: 000002B8: 10:56:56 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000002B8: 10:56:56 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000002B8: 10:56:56 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000002B8: 10:57:01 [TUniServerModule]:Global Cache Folder Erased. <157> Files deleted.
+PedigoDigital.exe: 000002B8: 10:57:01 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000002B8: 10:57:01 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002C90: 10:57:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: U7mk6w5imQ1084A2664 ) : Addr: $0082590E
+PedigoDigital.exe: 000014B4: 11:14:01 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007EE87C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007EE87C
+PedigoDigital.exe: 000027C8: 11:14:42 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000027C8: 11:14:42 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000027C8: 11:14:42 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000027C8: 11:14:47 [TUniServerModule]:Global Cache Folder Erased. <155> Files deleted.
+PedigoDigital.exe: 000027C8: 11:14:47 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000027C8: 11:14:47 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003D74: 11:14:54 [127.0.0.1]:EAccessViolation : Access violation at address 00D29652 in module 'PedigoDigital.exe'. Read of address 00000430 : Addr: $00D29652
+PedigoDigital.exe: 00003D74: 11:14:58 [127.0.0.1]:EAccessViolation : Access violation at address 00D29652 in module 'PedigoDigital.exe'. Read of address 00000430 : Addr: $00D29652
+PedigoDigital.exe: 000002DC: 11:16:03 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000002DC: 11:16:03 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000002DC: 11:16:03 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000002DC: 11:16:07 [TUniServerModule]:Global Cache Folder Erased. <153> Files deleted.
+PedigoDigital.exe: 000002DC: 11:16:07 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000002DC: 11:16:07 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000034D8: 11:16:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: YGTxH6XGGM1084A2F8E ) : Addr: $0082590E
+PedigoDigital.exe: 000034D8: 11:16:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: YGTxH6XGGM1084A2F8E ) : Addr: $0082590E
+PedigoDigital.exe: 000034D8: 11:16:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: YGTxH6XGGM1084A2F8E ) : Addr: $0082590E
+PedigoDigital.exe: 000034D8: 11:16:07 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: YGTxH6XGGM1084A2F8E ) : Addr: $0082590E
+PedigoDigital.exe: 0000111C: 11:16:13 [127.0.0.1]:EAccessViolation : Access violation at address 00D29E98 in module 'PedigoDigital.exe'. Read of address 00000430 : Addr: $00D29E98
+PedigoDigital.exe: 00002088: 11:17:00 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002088: 11:17:00 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002088: 11:17:00 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002088: 11:17:04 [TUniServerModule]:Global Cache Folder Erased. <154> Files deleted.
+PedigoDigital.exe: 00002088: 11:17:04 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002088: 11:17:04 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000026B8: 11:18:26 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 9SlNwICY621084A2FEC ) : Addr: $0082590E
+PedigoDigital.exe: 00000BC0: 11:29:35 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000BC0: 11:29:35 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000BC0: 11:29:35 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000BC0: 11:29:40 [TUniServerModule]:Global Cache Folder Erased. <157> Files deleted.
+PedigoDigital.exe: 00000BC0: 11:29:40 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000BC0: 11:29:40 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001708: 11:29:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: b8nKvefYSz1084A3090 ) : Addr: $0082590E
+PedigoDigital.exe: 000025A4: 11:29:42 [HandleFileRequest[127.0.0.1]]:File not found: D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\cache\pedigodigital_exe\b8nKvefYSz1084A3090\favicon.ico
+PedigoDigital.exe: 000021BC: 11:51:08 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000021BC: 11:51:08 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000021BC: 11:51:08 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000021BC: 11:51:14 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+PedigoDigital.exe: 000021BC: 11:51:14 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000021BC: 11:51:14 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000017E8: 11:56:20 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000017E8: 11:56:20 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000017E8: 11:56:20 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000017E8: 11:56:25 [TUniServerModule]:Global Cache Folder Erased. <155> Files deleted.
+PedigoDigital.exe: 000017E8: 11:56:25 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000017E8: 11:56:25 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000004CC: 11:56:36 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000004CC: 11:56:36 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000004CC: 11:56:36 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000004CC: 11:56:36 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 000004CC: 11:56:36 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000004CC: 11:56:36 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002890: 11:56:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: CsQwOszALO1084A3A71 ) : Addr: $0082590E
+PedigoDigital.exe: 00003908: 12:00:09 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003908: 12:00:09 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003908: 12:00:09 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003908: 12:00:14 [TUniServerModule]:Global Cache Folder Erased. <154> Files deleted.
+PedigoDigital.exe: 00003908: 12:00:14 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003908: 12:00:14 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000025C8: 13:04:05 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000025C8: 13:04:05 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000025C8: 13:04:05 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000025C8: 13:04:05 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 000025C8: 13:04:05 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000025C8: 13:04:05 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000006C0: 13:04:44 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: v8uqmOBhtS1084A3AE8 ) : Addr: $0082590E
+PedigoDigital.exe: 00003BD8: 13:25:13 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003BD8: 13:25:13 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003BD8: 13:25:13 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003BD8: 13:25:18 [TUniServerModule]:Global Cache Folder Erased. <155> Files deleted.
+PedigoDigital.exe: 00003BD8: 13:25:18 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003BD8: 13:25:18 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 0000357C: 13:27:09 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: BqT8polbmo1084A4D5F ) : Addr: $0082590E
+PedigoDigital.exe: 00002334: 13:29:49 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002334: 13:29:49 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002334: 13:29:49 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002334: 13:29:54 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+PedigoDigital.exe: 00002334: 13:29:54 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002334: 13:29:54 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001110: 13:30:02 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DVNC6FEbwP1084A5373 ) : Addr: $0082590E
+PedigoDigital.exe: 00000928: 13:31:34 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000928: 13:31:34 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000928: 13:31:34 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000928: 13:31:39 [TUniServerModule]:Global Cache Folder Erased. <163> Files deleted.
+PedigoDigital.exe: 00000928: 13:31:39 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000928: 13:31:39 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002314: 13:31:45 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: xY5TWNNO9j1084A547A ) : Addr: $0082590E
+PedigoDigital.exe: 00002314: 13:31:45 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: xY5TWNNO9j1084A547A ) : Addr: $0082590E
+PedigoDigital.exe: 00003050: 13:31:54 [127.0.0.1]:EDatabaseError : Field 'ID' must have a value : Addr: $006B2A63
+PedigoDigital.exe: 00003050: 13:31:58 [127.0.0.1]:EDatabaseError : Field 'ID' must have a value : Addr: $006B2A63
+PedigoDigital.exe: 00001C10: 13:32:24 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001C10: 13:32:24 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001C10: 13:32:24 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001C10: 13:32:29 [TUniServerModule]:Global Cache Folder Erased. <154> Files deleted.
+PedigoDigital.exe: 00001C10: 13:32:29 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001C10: 13:32:29 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002724: 13:36:52 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002724: 13:36:52 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002724: 13:36:52 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002724: 13:36:52 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 00002724: 13:36:52 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002724: 13:36:52 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003F08: 13:36:55 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: DfWTf3wPov1084A54B6 ) : Addr: $0082590E
+PedigoDigital.exe: 000018B0: 13:37:00 [127.0.0.1]:EDatabaseError : FDQueryCaixa: Dataset not in edit or insert mode : Addr: $006B2A4E
+PedigoDigital.exe: 000002E8: 14:33:12 [127.0.0.1]:EDatabaseError : FDQueryCaixa: Dataset not in edit or insert mode : Addr: $006B2A4E
+PedigoDigital.exe: 000039F0: 14:34:20 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000039F0: 14:34:20 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000039F0: 14:34:20 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000039F0: 14:34:25 [TUniServerModule]:Global Cache Folder Erased. <155> Files deleted.
+PedigoDigital.exe: 000039F0: 14:34:25 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000039F0: 14:34:25 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002798: 14:34:41 [127.0.0.1]:EDatabaseError : QueryProduto: Cannot perform this operation on a closed dataset : Addr: $006B8F4E
+PedigoDigital.exe: 00001E7C: 14:36:17 [127.0.0.1]:EDatabaseError : FDQueryCaixa: Field 'ID' not found : Addr: $006B8F4E
+PedigoDigital.exe: 000023F8: 14:41:34 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000023F8: 14:41:34 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000023F8: 14:41:34 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000023F8: 14:41:40 [TUniServerModule]:Global Cache Folder Erased. <176> Files deleted.
+PedigoDigital.exe: 000023F8: 14:41:40 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000023F8: 14:41:40 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000036C8: 14:59:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Xf9zGT4IVN1084A65B5 ) : Addr: $0082BE0E
+PedigoDigital.exe: 00001ACC: 15:02:20 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001ACC: 15:02:20 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001ACC: 15:02:20 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001ACC: 15:02:20 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 00001ACC: 15:02:20 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001ACC: 15:02:20 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000011D8: 15:02:34 [127.0.0.1]:EDatabaseError : FDQueryCaixa: Field 'ID' not found : Addr: $006B8F4E
+PedigoDigital.exe: 000011D8: 15:02:38 [127.0.0.1]:EDatabaseError : FDQueryCaixa: Field 'ID' not found : Addr: $006B8F4E
+PedigoDigital.exe: 00003C7C: 15:03:09 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003C7C: 15:03:09 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003C7C: 15:03:09 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003C7C: 15:03:14 [TUniServerModule]:Global Cache Folder Erased. <159> Files deleted.
+PedigoDigital.exe: 00003C7C: 15:03:14 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003C7C: 15:03:14 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001418: 15:16:58 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001418: 15:16:58 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001418: 15:16:58 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001418: 15:16:58 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 00001418: 15:16:58 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001418: 15:16:58 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000164: 15:17:05 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: XqkgGP7fgp1084A6D48 ) : Addr: $0082BE0E
+PedigoDigital.exe: 000003B4: 15:17:28 [127.0.0.1]:EDatabaseError : FDQueryCaixa: Field 'ID' not found : Addr: $006B8F4E
+PedigoDigital.exe: 00003E4C: 15:21:01 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003E4C: 15:21:01 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003E4C: 15:21:01 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003E4C: 15:21:05 [TUniServerModule]:Global Cache Folder Erased. <154> Files deleted.
+PedigoDigital.exe: 00003E4C: 15:21:05 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003E4C: 15:21:05 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000C84: 15:21:13 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: QqoJdHliFB1084A7145 ) : Addr: $0082BE0E
+PedigoDigital.exe: 00002778: 15:23:12 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002778: 15:23:12 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002778: 15:23:12 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002778: 15:23:17 [TUniServerModule]:Global Cache Folder Erased. <154> Files deleted.
+PedigoDigital.exe: 00002778: 15:23:17 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002778: 15:23:17 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000DD0: 15:23:47 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000DD0: 15:23:47 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000DD0: 15:23:47 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000DD0: 15:23:47 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 00000DD0: 15:23:47 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000DD0: 15:23:47 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002B34: 15:23:49 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: cI9GQOyp3D1084A7265 ) : Addr: $0082BE0E
+PedigoDigital.exe: 000034F8: 15:24:34 [127.0.0.1]:EConvertError : '' is not a valid integer value : Addr: $0042C162
+PedigoDigital.exe: 00000820: 15:29:25 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000820: 15:29:25 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000820: 15:29:25 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000820: 15:29:30 [TUniServerModule]:Global Cache Folder Erased. <159> Files deleted.
+PedigoDigital.exe: 00000820: 15:29:30 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000820: 15:29:30 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002890: 15:29:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: j7ZJSfXh2Q1084A7319 ) : Addr: $0082BE0E
+PedigoDigital.exe: 00001040: 15:37:59 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001040: 15:37:59 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001040: 15:37:59 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001040: 15:38:04 [TUniServerModule]:Global Cache Folder Erased. <158> Files deleted.
+PedigoDigital.exe: 00001040: 15:38:04 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001040: 15:38:04 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000EF0: 15:39:41 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 9KipP9ocXc1084A74BE ) : Addr: $0082BE0E
+PedigoDigital.exe: 000014A4: 15:39:41 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 9KipP9ocXc1084A74BE ) : Addr: $0082BE0E
+PedigoDigital.exe: 00002FB0: 15:42:38 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002FB0: 15:42:38 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002FB0: 15:42:38 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002FB0: 15:42:43 [TUniServerModule]:Global Cache Folder Erased. <161> Files deleted.
+PedigoDigital.exe: 00002FB0: 15:42:43 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002FB0: 15:42:43 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000011EC: 15:45:10 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000011EC: 15:45:10 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000011EC: 15:45:10 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000011EC: 15:45:10 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 000011EC: 15:45:10 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000011EC: 15:45:10 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000008FC: 15:45:14 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SBpX4aWowK1084A776A ) : Addr: $0082BE0E
+PedigoDigital.exe: 00000E38: 15:54:26 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000E38: 15:54:26 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000E38: 15:54:26 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000E38: 15:54:30 [TUniServerModule]:Global Cache Folder Erased. <147> Files deleted.
+PedigoDigital.exe: 00000E38: 15:54:30 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000E38: 15:54:30 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002088: 15:54:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 4Okae3ROkK1084A78E9 ) : Addr: $0082BE0E
+PedigoDigital.exe: 00003AAC: 15:54:56 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 2, column 26
+? : Addr: $008E3C40
+PedigoDigital.exe: 0000280C: 15:55:22 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 0000280C: 15:55:22 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 0000280C: 15:55:22 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 0000280C: 15:55:26 [TUniServerModule]:Global Cache Folder Erased. <157> Files deleted.
+PedigoDigital.exe: 0000280C: 15:55:26 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 0000280C: 15:55:26 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003EFC: 15:55:28 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: FdfaH2s4vx1084A7B78 ) : Addr: $0082BE0E
+PedigoDigital.exe: 00001CF8: 15:55:44 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 2, column 26
+? : Addr: $008E3C40
+PedigoDigital.exe: 00002760: 16:00:43 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002760: 16:00:43 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002760: 16:00:43 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002760: 16:00:48 [TUniServerModule]:Global Cache Folder Erased. <162> Files deleted.
+PedigoDigital.exe: 00002760: 16:00:48 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002760: 16:00:48 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000029DC: 16:00:49 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: LxVHSZFSca1084A7BAF ) : Addr: $0082BE0E
+PedigoDigital.exe: 00002A50: 16:01:09 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 2, column 26
+? : Addr: $008E3C40
+PedigoDigital.exe: 000020E0: 16:04:52 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000020E0: 16:04:52 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000020E0: 16:04:52 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000020E0: 16:04:57 [TUniServerModule]:Global Cache Folder Erased. <159> Files deleted.
+PedigoDigital.exe: 000020E0: 16:04:57 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000020E0: 16:04:57 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000009B8: 16:05:56 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000009B8: 16:05:56 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000009B8: 16:05:56 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000009B8: 16:06:01 [TUniServerModule]:Global Cache Folder Erased. <147> Files deleted.
+PedigoDigital.exe: 000009B8: 16:06:01 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000009B8: 16:06:01 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003F78: 16:06:41 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003F78: 16:06:41 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003F78: 16:06:41 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003F78: 16:06:45 [TUniServerModule]:Global Cache Folder Erased. <156> Files deleted.
+PedigoDigital.exe: 00003F78: 16:06:45 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003F78: 16:06:45 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003FE0: 16:07:14 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 2, column 26
+? : Addr: $008E3C40
+PedigoDigital.exe: 00000E38: 16:07:57 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000E38: 16:07:57 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000E38: 16:07:57 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000E38: 16:08:01 [TUniServerModule]:Global Cache Folder Erased. <157> Files deleted.
+PedigoDigital.exe: 00000E38: 16:08:01 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000E38: 16:08:01 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000012FC: 16:08:03 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: cv1LJ6CzWS1084A7EC1 ) : Addr: $0082BE0E
+PedigoDigital.exe: 00003318: 16:09:34 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003318: 16:09:34 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003318: 16:09:34 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003318: 16:09:39 [TUniServerModule]:Global Cache Folder Erased. <158> Files deleted.
+PedigoDigital.exe: 00003318: 16:09:39 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003318: 16:09:39 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000284: 16:09:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: tmWDhHZpYb1084A7F19 ) : Addr: $0082BE0E
+PedigoDigital.exe: 00000604: 16:10:32 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000604: 16:10:32 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000604: 16:10:32 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000604: 16:10:36 [TUniServerModule]:Global Cache Folder Erased. <156> Files deleted.
+PedigoDigital.exe: 00000604: 16:10:36 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000604: 16:10:36 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 0000209C: 16:10:52 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: vu4hCGG7vF1084A7F8A ) : Addr: $0082BE0E
+PedigoDigital.exe: 00000758: 16:10:52 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: vu4hCGG7vF1084A7F8A ) : Addr: $0082BE0E
+PedigoDigital.exe: 0000209C: 16:11:49 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -206
+Column unknown
+COD_PRODUTO
+At line 1, column 67 : Addr: $008E3C40
+PedigoDigital.exe: 00002A60: 16:13:17 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002A60: 16:13:17 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002A60: 16:13:17 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002A60: 16:13:22 [TUniServerModule]:Global Cache Folder Erased. <159> Files deleted.
+PedigoDigital.exe: 00002A60: 16:13:22 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002A60: 16:13:22 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002D3C: 16:14:09 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: sfHemZQ4jQ1084A7FDF ) : Addr: $0082BE0E
+PedigoDigital.exe: 0000371C: 16:14:41 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -206
+Column unknown
+COD_PEDIDO
+At line 4, column 11 : Addr: $008E3C40
+PedigoDigital.exe: 00003DD8: 16:15:07 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003DD8: 16:15:07 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003DD8: 16:15:07 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003DD8: 16:15:12 [TUniServerModule]:Global Cache Folder Erased. <160> Files deleted.
+PedigoDigital.exe: 00003DD8: 16:15:12 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003DD8: 16:15:12 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000032B4: 16:15:47 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000032B4: 16:15:47 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000032B4: 16:15:47 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000032B4: 16:15:51 [TUniServerModule]:Global Cache Folder Erased. <147> Files deleted.
+PedigoDigital.exe: 000032B4: 16:15:52 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000032B4: 16:15:52 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002A7C: 16:15:56 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: rf3mIWhvLq1084A810B ) : Addr: $0082BE0E
+PedigoDigital.exe: 00002670: 16:16:19 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -206
+Column unknown
+CODPRODUTO
+At line 4, column 11 : Addr: $008E3C40
+PedigoDigital.exe: 00002670: 16:16:24 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -206
+Column unknown
+CODPRODUTO
+At line 4, column 11 : Addr: $008E3C40
+PedigoDigital.exe: 00002ED4: 16:16:58 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002ED4: 16:16:58 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002ED4: 16:16:58 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002ED4: 16:17:03 [TUniServerModule]:Global Cache Folder Erased. <158> Files deleted.
+PedigoDigital.exe: 00002ED4: 16:17:03 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002ED4: 16:17:03 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000630: 16:17:19 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: jicxlSeYJ71084A8142 ) : Addr: $0082BE0E
+PedigoDigital.exe: 00001DC4: 16:23:10 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001DC4: 16:23:10 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001DC4: 16:23:10 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001DC4: 16:23:16 [TUniServerModule]:Global Cache Folder Erased. <167> Files deleted.
+PedigoDigital.exe: 00001DC4: 16:23:16 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001DC4: 16:23:16 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003480: 16:23:30 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003480: 16:23:30 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003480: 16:23:30 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003480: 16:23:30 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 00003480: 16:23:30 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003480: 16:23:30 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002EF8: 16:24:26 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002EF8: 16:24:26 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002EF8: 16:24:26 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002EF8: 16:24:26 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 00002EF8: 16:24:26 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002EF8: 16:24:26 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001A74: 16:24:28 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: FQ3hmr4AYG1084A819F ) : Addr: $0082BE0E
+PedigoDigital.exe: 00002760: 16:24:41 [127.0.0.1]:EConvertError : '' is not a valid integer value : Addr: $0042C162
+PedigoDigital.exe: 000013FC: 16:26:46 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007F4D7C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007F4D7C
+PedigoDigital.exe: 00000280: 16:28:08 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000280: 16:28:08 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000280: 16:28:08 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000280: 16:28:14 [TUniServerModule]:Global Cache Folder Erased. <174> Files deleted.
+PedigoDigital.exe: 00000280: 16:28:14 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000280: 16:28:14 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000020DC: 16:28:48 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007F4D7C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007F4D7C
+PedigoDigital.exe: 00003BC0: 16:34:19 [127.0.0.1]:EConvertError : '' is not a valid integer value : Addr: $0042C162
+PedigoDigital.exe: 00003BC0: 16:35:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: AewQA5wQ4F1084A838D ) : Addr: $0082BE0E
+PedigoDigital.exe: 000038EC: 16:40:14 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 000038EC: 16:40:14 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 000038EC: 16:40:14 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 000038EC: 16:40:22 [TUniServerModule]:Global Cache Folder Erased. <190> Files deleted.
+PedigoDigital.exe: 000038EC: 16:40:22 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 000038EC: 16:40:22 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000EB4: 16:43:42 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000EB4: 16:43:42 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000EB4: 16:43:42 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00000EB4: 16:43:47 [TUniServerModule]:Global Cache Folder Erased. <154> Files deleted.
+PedigoDigital.exe: 00000EB4: 16:43:47 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000EB4: 16:43:47 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00001C7C: 16:43:48 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: sRSjzZRcKO1084A87DE ) : Addr: $0082BE0E
+PedigoDigital.exe: 00002014: 16:44:00 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: Nyba7Z2eY11084A8684 ) : Addr: $0082BE0E
+PedigoDigital.exe: 00003898: 16:44:15 [127.0.0.1]:EIBNativeException : [FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -206
+Column unknown
+IDATA_SAIDA
+At line 1, column 18 : Addr: $008E3C40
+PedigoDigital.exe: 00001FC4: 16:44:41 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00001FC4: 16:44:41 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00001FC4: 16:44:41 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00001FC4: 16:44:46 [TUniServerModule]:Global Cache Folder Erased. <170> Files deleted.
+PedigoDigital.exe: 00001FC4: 16:44:46 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00001FC4: 16:44:46 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 000035C8: 16:44:50 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: PhPq1apqyB1084A88CC ) : Addr: $0082BE0E
+PedigoDigital.exe: 00003E4C: 16:46:13 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: VMAYcWeLcI1084A88DC ) : Addr: $0082BE0E
+PedigoDigital.exe: 000033DC: 16:46:56 [TUniGUIServerModule.AppHandleException-]:EAccessViolation : Access violation at address 007F4D7C in module 'PedigoDigital.exe'. Read of address 00000064 : Addr: $007F4D7C
+PedigoDigital.exe: 0000061C: 16:49:50 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 0000061C: 16:49:50 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 0000061C: 16:49:50 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 0000061C: 16:49:55 [TUniServerModule]:Global Cache Folder Erased. <155> Files deleted.
+PedigoDigital.exe: 0000061C: 16:49:55 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 0000061C: 16:49:55 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00003CE4: 16:49:57 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: C1QzFnjPuS1084A8974 ) : Addr: $0082BE0E
+PedigoDigital.exe: 00003A6C: 17:04:07 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00003A6C: 17:04:07 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00003A6C: 17:04:07 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00003A6C: 17:04:15 [TUniServerModule]:Global Cache Folder Erased. <178> Files deleted.
+PedigoDigital.exe: 00003A6C: 17:04:15 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00003A6C: 17:04:15 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002DA4: 17:06:31 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00002DA4: 17:06:31 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00002DA4: 17:06:31 [TUniServerModule]:Start Path = D:\Projetos\2021\WebPedidoDigital\CardapioDigital\Win32\Release\
+PedigoDigital.exe: 00002DA4: 17:06:31 [TUniServerModule]:Global Cache Folder Erased. <1> Files deleted.
+PedigoDigital.exe: 00002DA4: 17:06:31 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00002DA4: 17:06:31 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00002DA4: 17:07:02 [Exit]:Unexpected attempt to terminate server application with Exit Code: 0

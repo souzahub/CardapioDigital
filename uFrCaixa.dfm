@@ -19,7 +19,7 @@ object frCaixa: TfrCaixa
       Left = 1
       Top = 1
       Width = 994
-      Height = 56
+      Height = 40
       Hint = ''
       Margins.Left = 5
       Margins.Top = 0
@@ -29,21 +29,84 @@ object frCaixa: TfrCaixa
       Color = clGray
       Align = alTop
       TabOrder = 1
+      object UniBitBtn1: TUniBitBtn
+        AlignWithMargins = True
+        Left = 243
+        Top = 6
+        Width = 182
+        Height = 31
+        Hint = ''
+        Margins.Top = 6
+        Caption = 'FINALIZAR'
+        Align = alLeft
+        ParentFont = False
+        Font.Height = -20
+        TabOrder = 1
+        ImageIndex = 13
+        OnClick = UniBitBtn1Click
+      end
+      object edCodigoProduto: TUniDBEdit
+        AlignWithMargins = True
+        Left = 870
+        Top = 3
+        Width = 121
+        Height = 32
+        Hint = ''
+        Margins.Bottom = 5
+        DataField = 'CODIGO'
+        DataSource = dsProduto
+        Align = alRight
+        TabOrder = 2
+      end
+      object UniLabel9: TUniLabel
+        AlignWithMargins = True
+        Left = 747
+        Top = 3
+        Width = 117
+        Height = 34
+        Hint = ''
+        AutoSize = False
+        Caption = 'cod.produt'
+        Align = alRight
+        ParentFont = False
+        Font.Height = -20
+        Font.Style = [fsBold]
+        ParentColor = False
+        Color = clGray
+        TabOrder = 3
+      end
+      object edNOvaVenda: TUniBitBtn
+        AlignWithMargins = True
+        Left = 3
+        Top = 6
+        Width = 234
+        Height = 31
+        Hint = ''
+        Margins.Top = 6
+        Visible = False
+        Caption = 'NOVA VENDA'
+        Align = alLeft
+        ParentFont = False
+        Font.Height = -20
+        TabOrder = 4
+        ImageIndex = 13
+        OnClick = edNOvaVendaClick
+      end
     end
     object UniPanel1: TUniPanel
       Left = 1
-      Top = 97
+      Top = 88
       Width = 994
-      Height = 679
+      Height = 688
       Hint = ''
       Align = alClient
       TabOrder = 2
       Caption = 'UniPanel1'
       object UniContainerPanel2: TUniContainerPanel
-        Left = 629
+        Left = 1
         Top = 1
-        Width = 364
-        Height = 677
+        Width = 359
+        Height = 686
         Hint = ''
         Margins.Left = 5
         Margins.Top = 0
@@ -51,13 +114,13 @@ object frCaixa: TfrCaixa
         Margins.Bottom = 0
         ParentColor = False
         Color = clSilver
-        Align = alRight
+        Align = alLeft
         TabOrder = 1
         object UniContainerPanel4: TUniContainerPanel
           Left = 0
           Top = 0
-          Width = 364
-          Height = 42
+          Width = 359
+          Height = 57
           Hint = ''
           ParentColor = False
           Color = clBlack
@@ -67,106 +130,61 @@ object frCaixa: TfrCaixa
             AlignWithMargins = True
             Left = 3
             Top = 6
-            Width = 358
-            Height = 33
+            Width = 174
+            Height = 48
             Hint = ''
             Margins.Top = 6
-            Caption = 'Buscar Produtos'
-            Align = alClient
+            Caption = 'Busca Produto'
+            Align = alLeft
             ParentFont = False
             Font.Height = -20
             TabOrder = 1
             ImageIndex = 13
             OnClick = btClienteClick
           end
-        end
-        object UniLabel2: TUniLabel
-          AlignWithMargins = True
-          Left = 3
-          Top = 130
-          Width = 358
-          Height = 24
-          Hint = ''
-          AutoSize = False
-          Caption = 'Pre'#231'o '
-          Align = alTop
-          ParentFont = False
-          Font.Height = -20
-          Font.Style = [fsBold]
-          TabOrder = 2
-        end
-        object edQtd: TUniEdit
-          AlignWithMargins = True
-          Left = 95
-          Top = 252
-          Width = 174
-          Height = 45
-          Hint = ''
-          Margins.Left = 95
-          Margins.Right = 95
-          Text = ''
-          ParentFont = False
-          Font.Height = -40
-          Align = alTop
-          TabOrder = 3
-          Color = 12189695
-          InputMask.Mask = '9999'
-          InputMask.MaskChar = ' '
-        end
-        object UniLabel1: TUniLabel
-          AlignWithMargins = True
-          Left = 3
-          Top = 222
-          Width = 358
-          Height = 24
-          Hint = ''
-          Margins.Top = 10
-          Alignment = taCenter
-          AutoSize = False
-          Caption = 'Quantidade'
-          Align = alTop
-          ParentFont = False
-          Font.Height = -20
-          Font.Style = [fsBold]
-          ParentColor = False
-          Color = clSilver
-          TabOrder = 4
+          object edCodVenda: TUniEdit
+            Left = 225
+            Top = 27
+            Width = 121
+            Hint = ''
+            Text = ''
+            TabOrder = 2
+          end
+          object UniLabel10: TUniLabel
+            Left = 225
+            Top = 5
+            Width = 64
+            Height = 16
+            Hint = ''
+            Caption = 'Cod.Pedido'
+            ParentFont = False
+            Font.Color = clWhite
+            Font.Height = -13
+            ParentColor = False
+            Color = clWhite
+            TabOrder = 3
+          end
         end
         object bdCalcular: TUniButton
           Left = 0
-          Top = 664
-          Width = 364
+          Top = 673
+          Width = 359
           Height = 13
           Hint = ''
           Visible = False
           Caption = 'Calcular'
           Align = alBottom
-          TabOrder = 5
-          OnClick = bdCalcularClick
-        end
-        object edValor: TUniEdit
-          AlignWithMargins = True
-          Left = 10
-          Top = 160
-          Width = 351
-          Height = 49
-          Hint = ''
-          Margins.Left = 10
-          Text = 'UniEdit1'
-          ParentFont = False
-          Font.Height = -33
-          Align = alTop
-          TabOrder = 6
+          TabOrder = 2
         end
         object pnProdutos: TUniPanel
           Left = 0
-          Top = 480
-          Width = 364
-          Height = 184
+          Top = 433
+          Width = 359
+          Height = 240
           Hint = ''
           Visible = False
           Align = alBottom
-          TabOrder = 7
+          TabOrder = 3
           ShowCaption = False
           Caption = ''
           Color = clBackground
@@ -174,8 +192,8 @@ object frCaixa: TfrCaixa
             AlignWithMargins = True
             Left = 6
             Top = 88
-            Width = 352
-            Height = 92
+            Width = 347
+            Height = 148
             Hint = ''
             Margins.Left = 5
             Margins.Right = 5
@@ -210,7 +228,7 @@ object frCaixa: TfrCaixa
             AlignWithMargins = True
             Left = 4
             Top = 1
-            Width = 356
+            Width = 351
             Height = 36
             Hint = ''
             Margins.Top = 0
@@ -220,14 +238,12 @@ object frCaixa: TfrCaixa
             Font.Height = -20
             TabOrder = 2
             Caption = 'Produtos'
-            ExplicitLeft = 49
-            ExplicitWidth = 362
           end
           object UniPanel4: TUniPanel
             AlignWithMargins = True
             Left = 6
             Top = 40
-            Width = 352
+            Width = 347
             Height = 42
             Hint = ''
             Margins.Left = 5
@@ -253,7 +269,7 @@ object frCaixa: TfrCaixa
             end
             object ubtSair: TUniFSButton
               AlignWithMargins = True
-              Left = 280
+              Left = 275
               Top = 6
               Width = 30
               Height = 30
@@ -283,7 +299,7 @@ object frCaixa: TfrCaixa
             end
             object btCancelar: TUniFSButton
               AlignWithMargins = True
-              Left = 318
+              Left = 313
               Top = 6
               Width = 30
               Height = 30
@@ -320,9 +336,6 @@ object frCaixa: TfrCaixa
               ParentColor = False
               Align = alLeft
               TabOrder = 4
-              ExplicitLeft = -3
-              ExplicitTop = 3
-              ExplicitHeight = 40
               object EdPesquisar: TUniEdit
                 AlignWithMargins = True
                 Left = 10
@@ -336,6 +349,7 @@ object frCaixa: TfrCaixa
                 ParentShowHint = False
                 CharCase = ecUpperCase
                 MaxLength = 40
+                CharEOL = #13
                 Text = ''
                 ParentFont = False
                 Font.Color = clBlack
@@ -350,7 +364,6 @@ object frCaixa: TfrCaixa
                 FieldLabelFont.Height = -19
                 FieldLabelFont.Style = [fsBold]
                 OnChange = EdPesquisarChange
-                ExplicitHeight = 33
               end
               object UniLabel4: TUniLabel
                 AlignWithMargins = True
@@ -370,9 +383,6 @@ object frCaixa: TfrCaixa
                 Font.Height = -20
                 Font.Style = [fsBold]
                 TabOrder = 2
-                ExplicitTop = 26
-                ExplicitWidth = 204
-                ExplicitHeight = 16
               end
             end
           end
@@ -380,8 +390,8 @@ object frCaixa: TfrCaixa
         object edTotal: TUniEdit
           AlignWithMargins = True
           Left = 10
-          Top = 75
-          Width = 351
+          Top = 90
+          Width = 346
           Height = 49
           Hint = ''
           Margins.Left = 10
@@ -389,13 +399,13 @@ object frCaixa: TfrCaixa
           ParentFont = False
           Font.Height = -33
           Align = alTop
-          TabOrder = 8
+          TabOrder = 4
         end
         object UniLabel3: TUniLabel
           AlignWithMargins = True
           Left = 3
-          Top = 45
-          Width = 358
+          Top = 60
+          Width = 353
           Height = 24
           Hint = ''
           AutoSize = False
@@ -404,15 +414,182 @@ object frCaixa: TfrCaixa
           ParentFont = False
           Font.Height = -20
           Font.Style = [fsBold]
-          TabOrder = 9
+          TabOrder = 5
+        end
+        object UniContainerPanel5: TUniContainerPanel
+          AlignWithMargins = True
+          Left = 10
+          Top = 145
+          Width = 339
+          Height = 95
+          Hint = ''
+          Margins.Left = 10
+          Margins.Right = 10
+          ParentColor = False
+          Align = alTop
+          TabOrder = 6
+          object UniContainerPanel6: TUniContainerPanel
+            Left = 0
+            Top = 0
+            Width = 339
+            Height = 33
+            Hint = ''
+            ParentColor = False
+            Align = alTop
+            TabOrder = 1
+            object UniLabel6: TUniLabel
+              AlignWithMargins = True
+              Left = 3
+              Top = 3
+              Width = 134
+              Height = 27
+              Hint = ''
+              Alignment = taCenter
+              AutoSize = False
+              Caption = 'Pre'#231'o '
+              Align = alLeft
+              ParentFont = False
+              Font.Height = -20
+              Font.Style = [fsBold]
+              TabOrder = 1
+            end
+            object UniLabel2: TUniLabel
+              AlignWithMargins = True
+              Left = 211
+              Top = 3
+              Width = 125
+              Height = 27
+              Hint = ''
+              Alignment = taCenter
+              AutoSize = False
+              Caption = 'Kg'
+              Align = alRight
+              ParentFont = False
+              Font.Height = -20
+              Font.Style = [fsBold]
+              TabOrder = 2
+            end
+          end
+          object edValor: TUniEdit
+            AlignWithMargins = True
+            Left = 10
+            Top = 36
+            Width = 127
+            Height = 56
+            Hint = ''
+            Margins.Left = 10
+            Text = 'UniEdit1'
+            ParentFont = False
+            Font.Height = -27
+            Align = alLeft
+            TabOrder = 2
+            ReadOnly = True
+          end
+          object edPreco: TUniFormattedNumberEdit
+            AlignWithMargins = True
+            Left = 218
+            Top = 36
+            Width = 111
+            Height = 56
+            Hint = ''
+            Margins.Right = 10
+            InputRTL = False
+            FormattedInput.DecimalGroup = 10
+            ParentFont = False
+            Font.Color = clRed
+            Font.Height = -27
+            Align = alRight
+            TabOrder = 3
+            DecimalSeparator = ','
+            ThousandSeparator = '.'
+          end
+        end
+        object UniContainerPanel7: TUniContainerPanel
+          AlignWithMargins = True
+          Left = 10
+          Top = 243
+          Width = 339
+          Height = 77
+          Hint = ''
+          Margins.Left = 10
+          Margins.Top = 0
+          Margins.Right = 10
+          ParentColor = False
+          Align = alTop
+          TabOrder = 7
+          object edQtd: TUniEdit
+            AlignWithMargins = True
+            Left = 10
+            Top = 32
+            Width = 127
+            Height = 37
+            Hint = ''
+            Margins.Left = 95
+            Margins.Right = 95
+            Text = ''
+            ParentFont = False
+            Font.Height = -27
+            TabOrder = 1
+            Color = 12189695
+            InputMask.Mask = '9999'
+            InputMask.MaskChar = ' '
+          end
+          object UniLabel1: TUniLabel
+            AlignWithMargins = True
+            Left = 15
+            Top = 2
+            Width = 121
+            Height = 24
+            Hint = ''
+            Margins.Top = 10
+            Alignment = taCenter
+            AutoSize = False
+            Caption = 'Quantidade'
+            ParentFont = False
+            Font.Height = -20
+            Font.Style = [fsBold]
+            ParentColor = False
+            Color = clSilver
+            TabOrder = 2
+          end
+          object edUnid: TUniDBEdit
+            Left = 272
+            Top = 32
+            Width = 57
+            Height = 37
+            Hint = ''
+            DataField = 'UNIDADE'
+            DataSource = dsProduto
+            TabOrder = 3
+            Color = 12189695
+            ReadOnly = True
+          end
+          object UniLabel5: TUniLabel
+            AlignWithMargins = True
+            Left = 272
+            Top = 2
+            Width = 56
+            Height = 24
+            Hint = ''
+            Margins.Top = 10
+            Alignment = taCenter
+            AutoSize = False
+            Caption = 'Unid'
+            ParentFont = False
+            Font.Height = -20
+            Font.Style = [fsBold]
+            ParentColor = False
+            Color = clSilver
+            TabOrder = 4
+          end
         end
       end
       object dbGridProduto: TUniDBGrid
         AlignWithMargins = True
-        Left = 4
+        Left = 363
         Top = 4
-        Width = 622
-        Height = 671
+        Width = 627
+        Height = 680
         Hint = ''
         DataSource = dsVendas
         Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgTitleClick, dgFilterClearButton, dgAutoRefreshRow]
@@ -422,17 +599,18 @@ object frCaixa: TfrCaixa
         TabOrder = 2
         ParentColor = False
         Color = clBtnFace
+        OnDblClick = dbGridProdutoDblClick
         Columns = <
           item
-            FieldName = 'ID'
-            Title.Caption = 'ID'
-            Width = 64
+            FieldName = 'CODPRODUTO'
+            Title.Caption = 'Cod'
+            Width = 77
             ReadOnly = True
           end
           item
             FieldName = 'DESCRICAO'
             Title.Caption = 'DESCRICAO'
-            Width = 230
+            Width = 243
           end
           item
             FieldName = 'QTD'
@@ -448,24 +626,54 @@ object frCaixa: TfrCaixa
             FieldName = 'TOTAL'
             Title.Caption = 'TOTAL'
             Width = 64
+          end
+          item
+            FieldName = 'UNIDADE'
+            Title.Caption = 'UNIDADE'
+            Width = 52
           end>
       end
+      object edTotalBruto: TUniFormattedNumberEdit
+        AlignWithMargins = True
+        Left = 372
+        Top = 61
+        Width = 111
+        Height = 56
+        Hint = ''
+        Margins.Right = 10
+        InputRTL = False
+        FormattedInput.DecimalGroup = 10
+        ParentFont = False
+        Font.Color = clRed
+        Font.Height = -27
+        TabOrder = 3
+        DecimalSeparator = ','
+        ThousandSeparator = '.'
+      end
+      object UniTabControl1: TUniTabControl
+        Left = 380
+        Top = 146
+        Width = 289
+        Height = 193
+        Hint = ''
+        TabOrder = 4
+      end
     end
-    object lbDescricao: TUniLabel
+    object lbDescricao: TUniDBText
       Left = 1
-      Top = 57
+      Top = 41
       Width = 994
-      Height = 40
+      Height = 47
       Hint = ''
+      DataField = 'DESCRICAO'
+      DataSource = dsProduto
       Alignment = taCenter
       AutoSize = False
-      Caption = 'UniLabel3'
       Align = alTop
       ParentFont = False
-      Font.Height = -33
-      ParentColor = False
-      Color = clBtnFace
-      TabOrder = 3
+      Font.Color = clHotLight
+      Font.Height = -27
+      Font.Style = [fsBold]
     end
   end
   object UniSweetAlert1: TUniSweetAlert
@@ -477,63 +685,23 @@ object frCaixa: TfrCaixa
     Padding = 20
     OnDismiss = UniSweetAlert1Dismiss
     OnConfirm = UniSweetAlert1Confirm
-    Left = 116
-    Top = 10
+    Left = 892
+    Top = 482
   end
   object dsVendas: TDataSource
     AutoEdit = False
     DataSet = cdVendas
-    Left = 33
-    Top = 138
-  end
-  object cdVendas: TClientDataSet
-    PersistDataPacket.Data = {
-      990000009619E0BD010000001800000005000000000003000000990002494404
-      0001000200010007535542545950450200490008004175746F696E6300094445
-      5343524943414F01004900000001000557494454480200020096000550524543
-      4F08000400000000000853554256414C4F520800040000000000035154440400
-      01000000000001000C4155544F494E4356414C55450400010001000000}
-    Active = True
-    Aggregates = <>
-    Params = <>
-    OnCalcFields = cdVendasCalcFields
-    Left = 17
-    Top = 57
-    object cdVendasID: TFDAutoIncField
-      FieldName = 'ID'
-      ReadOnly = True
-    end
-    object cdVendasDESCRICAO: TStringField
-      FieldName = 'DESCRICAO'
-      Size = 150
-    end
-    object cdVendasPRECO: TFloatField
-      FieldName = 'PRECO'
-      DisplayFormat = '#,##0.00'
-      EditFormat = '#,##0.00'
-    end
-    object cdVendasSUBVALOR: TFloatField
-      FieldName = 'SUBVALOR'
-    end
-    object cdVendasQTD: TIntegerField
-      FieldName = 'QTD'
-    end
-    object cdVendasTOTAL: TFloatField
-      FieldKind = fkCalculated
-      FieldName = 'TOTAL'
-      DisplayFormat = '#,##0.00'
-      EditFormat = '#,##0.00'
-      Calculated = True
-    end
+    Left = 889
+    Top = 242
   end
   object dsProduto: TDataSource
     DataSet = dmDados.QueryProduto
-    Left = 144
-    Top = 64
+    Left = 896
+    Top = 552
   end
   object UniNativeImageList1: TUniNativeImageList
-    Left = 24
-    Top = 8
+    Left = 888
+    Top = 400
     Images = {
       1B00000000000000060B0000006E617669636F6E3B66613B00000000060B0000
       006465736B746F703B66613B00000000060C000000656E76656C6F70653B6661
@@ -552,5 +720,51 @@ object frCaixa: TfrCaixa
       7369676E2D6F75743B66613B00000000060E000000756E69766572736974793B
       66613B00000000060C00000064617461626173653B66613B0000000006080000
       00706C75733B66613B00000000060900000074696D65733B66613B}
+  end
+  object cdVendas: TClientDataSet
+    PersistDataPacket.Data = {
+      C80000009619E0BD010000001800000007000000000003000000C80002494404
+      0001000200010007535542545950450200490008004175746F696E6300094445
+      5343524943414F01004900000001000557494454480200020096000550524543
+      4F08000400000000000853554256414C4F520800040000000000035154440400
+      01000000000007554E4944414445010049000000010005574944544802000200
+      08000A434F4450524F4455544F040001000000000001000C4155544F494E4356
+      414C55450400010001000000}
+    Active = True
+    Aggregates = <>
+    Params = <>
+    OnCalcFields = cdVendasCalcFields
+    Left = 890
+    Top = 177
+    object cdVendasID: TFDAutoIncField
+      FieldName = 'ID'
+      ReadOnly = True
+    end
+    object cdVendasDESCRICAO: TStringField
+      FieldName = 'DESCRICAO'
+      Size = 150
+    end
+    object cdVendasPRECO: TFloatField
+      FieldName = 'PRECO'
+    end
+    object cdVendasSUBVALOR: TFloatField
+      FieldName = 'SUBVALOR'
+    end
+    object cdVendasQTD: TIntegerField
+      FieldName = 'QTD'
+    end
+    object cdVendasTOTAL: TFloatField
+      FieldKind = fkInternalCalc
+      FieldName = 'TOTAL'
+      DisplayFormat = '#,##0.00'
+      EditFormat = '#,##0.00'
+    end
+    object cdVendasCODPRODUTO: TIntegerField
+      FieldName = 'CODPRODUTO'
+    end
+    object cdVendasUNIDADE: TStringField
+      FieldName = 'UNIDADE'
+      Size = 8
+    end
   end
 end

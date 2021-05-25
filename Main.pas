@@ -61,6 +61,7 @@ type
     procedure mnuGruposClick(Sender: TObject);
     procedure mnuProdutosClick(Sender: TObject);
     procedure Vendas1Click(Sender: TObject); //atualizar dados html
+
   private
     FInfobox : IInfobox; // Declaração...
     FValor1, FValor2, FValor3, FValor4 : string;
@@ -71,6 +72,7 @@ type
     { Public declarations }
     vADMIN, vUSUARIO : Boolean;  // Administrador
     xUsuario : string; // variavel para chamr o nome do usuario logado
+    vCOD : Integer;
 
   end;
 
@@ -222,6 +224,7 @@ end;
 procedure TMainForm.Vendas1Click(Sender: TObject);
 begin
    AddTab(PagePrincipal,TFrame(TfrCaixa),'Vendas');
+
 end;
 
 // fim

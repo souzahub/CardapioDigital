@@ -57,6 +57,8 @@ type
     UniImage1: TUniImage;
     UniFileUpload1: TUniFileUploadButton;
     UniLabel4: TUniLabel;
+    UniLabel5: TUniLabel;
+    cbUnidade: TUniComboBox;
     procedure UniFrameCreate(Sender: TObject);
     procedure BtIncClick(Sender: TObject);
     procedure BtAltClick(Sender: TObject);
@@ -162,6 +164,7 @@ begin
     edComposicao.Text := dmDados.QueryProdutoCOMPOSICAO.Value;
     edValoProduto.Text := FloatToStr (dmDados.QueryProdutoVALOR.Value );
     edFoto.Text := dmDados.QueryProdutoFOTO.Value;
+    cbUnidade.Text := dmDados.QueryProdutoUNIDADE.Value;
 
 
 
@@ -310,7 +313,6 @@ begin
   edFoto.Text := '';
   cpnPesquisa.Visible := False;
 
-
 end;
 
 procedure TfrCadProduto.cbGruposChange(Sender: TObject);
@@ -393,8 +395,8 @@ begin
    begin
      dmDados.QueryAuxiliar.Close;
      dmDados.QueryAuxiliar.SQL.Clear;
-     dmDados.QueryAuxiliar.SQL.Add('insert into PRODUTOS (ID_GRUPO, CODIGO, DESCRICAO, COMPOSICAO, VALOR, FOTO, GRUPO )');
-     dmDados.QueryAuxiliar.SQL.Add('values(:vID_GRUPO, :vCODIGO, :vDESCRICAO, :vCOMPOSICAO, :vVALOR, :vFOTO, :vGRUPO )');
+     dmDados.QueryAuxiliar.SQL.Add('insert into PRODUTOS (ID_GRUPO, CODIGO, DESCRICAO, COMPOSICAO, VALOR, FOTO, GRUPO, UNIDADE )');
+     dmDados.QueryAuxiliar.SQL.Add('values(:vID_GRUPO, :vCODIGO, :vDESCRICAO, :vCOMPOSICAO, :vVALOR, :vFOTO, :vGRUPO, :vUNIDADE )');
 
      dmDados.QueryAuxiliar.Params[0].DataType := ftInteger;
      dmDados.QueryAuxiliar.Params[0].Value := dbcodGrupo.Text;
@@ -416,6 +418,9 @@ begin
 
      dmDados.QueryAuxiliar.Params[6].DataType := ftString;
      dmDados.QueryAuxiliar.Params[6].Value := cbGrupos.Text;
+
+     dmDados.QueryAuxiliar.Params[7].DataType := ftString;
+     dmDados.QueryAuxiliar.Params[7].Value := cbUnidade.Text;
 
      dmDados.QueryAuxiliar.ExecSQL( xErro );
      dmDados.QueryProduto.Close();
@@ -431,7 +436,7 @@ begin
      dmDados.QueryAuxiliar.Close;
      dmDados.QueryAuxiliar.SQL.Clear;
      dmDados.QueryAuxiliar.SQL.Add('update PRODUTOS set ID_GRUPO=:vID_GRUPO, CODIGO=:vCODIGO, DESCRICAO=:vDESCRICAO,'
-     +'COMPOSICAO=:vCOMPOSICAO, VALOR=:vVALOR, FOTO=:vFOTO, GRUPO=:vGRUPO where ID=:vID');
+     +'COMPOSICAO=:vCOMPOSICAO, VALOR=:vVALOR, FOTO=:vFOTO, GRUPO=:vGRUPO, UNIDADE=:vUNIDADE where ID=:vID');
 
      dmDados.QueryAuxiliar.Params[0].DataType := ftInteger;
      dmDados.QueryAuxiliar.Params[0].Value := dbcodGrupo.Text;
@@ -454,8 +459,11 @@ begin
      dmDados.QueryAuxiliar.Params[6].DataType := ftString;
      dmDados.QueryAuxiliar.Params[6].Value := cbGrupos.Text;
 
-     dmDados.QueryAuxiliar.Params[7].DataType := ftInteger;
-     dmDados.QueryAuxiliar.Params[7].Value := dmDados.QueryProdutoID.Value;
+     dmDados.QueryAuxiliar.Params[7].DataType := ftString;
+     dmDados.QueryAuxiliar.Params[7].Value := cbUnidade.Text;
+
+     dmDados.QueryAuxiliar.Params[8].DataType := ftInteger;
+     dmDados.QueryAuxiliar.Params[8].Value := dmDados.QueryProdutoID.Value;
 
      dmDados.QueryAuxiliar.ExecSQL( xErro );
      dmDados.QueryProduto.Close();

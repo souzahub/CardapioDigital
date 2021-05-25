@@ -5,7 +5,6 @@ uses
   ServerModule in 'ServerModule.pas' {UniServerModule: TUniGUIServerModule},
   MainModule in 'MainModule.pas' {UniMainModule: TUniGUIMainModule},
   Main in 'Main.pas' {MainForm: TUniForm},
-  uFrCadastroUsuario in 'uFrCadastroUsuario.pas' {frCadastroUsuario: TUniFrame},
   uDados in 'uDados.pas' {dmDados: TDataModule},
   uFrLogSys in 'uFrLogSys.pas' {frLogSys: TUniFrame},
   uFormLogin in 'uFormLogin.pas' {UniLoginForm1: TUniLoginForm},
@@ -18,7 +17,8 @@ uses
   uExibeProduto in 'uExibeProduto.pas' {FrmExibeProduto: TUnimForm},
   uAcesso in 'uAcesso.pas' {FrmAcesso: TUnimLoginForm},
   uFrCaixa in 'uFrCaixa.pas' {frCaixa: TUniFrame},
-  uFormBuscaProduto in 'uFormBuscaProduto.pas' {formBuscaProduto: TUniForm};
+  uFormBuscaProduto in 'uFormBuscaProduto.pas' {formBuscaProduto: TUniForm},
+  uFrCadastroUsuario in 'uFrCadastroUsuario.pas' {frCadastroUsuario: TUniFrame};
 
 {$R *.res}
 

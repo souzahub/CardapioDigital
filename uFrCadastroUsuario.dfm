@@ -20,7 +20,7 @@ object frCadastroUsuario: TfrCadastroUsuario
       Width = 1142
       Height = 599
       Hint = ''
-      ActivePage = Tab1
+      ActivePage = Tab2
       Align = alClient
       TabOrder = 1
       object Tab1: TUniTabSheet
